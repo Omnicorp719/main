@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4285f4" />
+    <title>Cactus De Monaco</title>
+    <link rel="icon" href="https://img.freepik.com/free-vector/saguaro-cactus-plant-white-background_1308-80459.jpg" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Global styles */
+        body {
+            font-family: "Montserrat", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #dfbe9e;
+            color: #333;
+        }
+        header {
+            background-color: #bb0606;
+            color: #fff;
+            font-family:"Montserrat", sans-serif;
+            padding: 0px 15px;
+            text-align: center;
+            box-shadow: 0px 0px 10px #666;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 4.5em;
+            font-weight: 600;
+            padding-top: 30px;
+            margin: 0px 0 -60px 0;
+        }
+        header img {
+            margin-bottom: -180px;
+        }
+        .tagline {
+            margin: 200px auto 50px auto;
+            max-width: 800px;
+            text-align: center;
+            font-size: 1.6em;
+            font-family: "Montserrat", sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto 50px auto;
+            padding: 15px;
+            background: #fff;
+            box-shadow: 0px 0px 10px #666;
+        }
+        .article {
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid #bb0606;
+        }
+        .article h2 {
+            font-size: 2em;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #bb0606;
+        }
+        .article img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .article .preview {
+            margin-bottom: 10px;
+        }
+        .article button {
+            background-color: #bb0606;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .article button:hover {
+            background-color: #db5959;
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .modal-content {
+            background: #fff;
+            padding: 20px;
+            max-width: 90%;
+            max-height: 80%;
+            overflow-y: auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+        }
+        .modal-content h2 {
+            margin-top: 0;
+        }
+        .modal-content img {
+            width: 100%;
+            margin: 10px 0;
+        }
+        .modal-close {
+            background: #222;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .modal-close:hover {
+            background: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #56331f;
+            color: #fff;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cactus de Monaco</h1>
+        <img src="https://wallpapers.com/images/hd/small-cactus-png-kgr11-cah3s58u30a7u5ba.png" width="250" height="auto" alt="Cactus Logo">
+    </header>
+
+    <div class="tagline">
+        <p>Blog piquant et satirique - Espace de libre expression.<br>Des infos et des angles exclusifs. Des vérités qui dérangent.</p>
+    </div>
+
+    <p>Notre blog satirique sur Monaco est un espace de liberté éditoriale développé par des Monégasques et des Français de la Riviera attachés à la Principauté. Il a vocation à dévoiler des vérités piquantes et à ne pas se satisfaire du robinet d’eau tiède distillé par les potentats locaux et leurs agences de communication. Les valeurs qui animent ses rédacteurs sont la justice, l’intégrité, la transparence, la quête de vérité et le respect du débat public. Nos plumes entendent dénoncer les scandales, la corruption endémique, les mensonges cyniques, les trafics d’influence et la mainmise d’intérêts financiers puissants sur Monaco et ses alentours. Leurs informations émanent de correspondants au Palais Princier, au gouvernement, dans l’administration, la police et la justice monégasques, ainsi que des milieux d’affaires en Principauté, à Nice et à Paris.<br><br>
+    Le Cactus de Monaco est un média libre et indépendant. En tant que citoyens et lanceurs d’alerte potentiels (strictement protégés par l’anonymat), vous avez un rôle à jouer pour faire avancer notre pays empêtré dans ses contradictions et ses tartufferies. Vous pouvez nous faire parvenir des informations que nos équipes de  journalistes et juristes vérifieront soigneusement avant, éventuellement, la moindre publication.<br><br>
+    Lors de son avènement, le Prince Albert voulait faire de Monaco « une puissance de l’éthique ». On en est malheureusement très loin. La liste grise, les affaires monégasques, la corruption immobilière et les conflits d’intérêt au sommet en sont les tristes illustrations. Devant l’incurie d’une gouvernance monégasque anachronique et dépassée, le Cactus de Monaco entend indirectement favoriser la mise en œuvre de la vision initiale du Souverain. Cela grâce à des révélations, des enquêtes et la mise au jour de pratiques condamnables qui souillent la réputation de notre belle Principauté.</p>
+
+    <div class="container">
+        <!-- Articles -->
+
+
+
+
+
+        <div class="article">
+            <h2>La face sombre de Mareterra</h2>
+            <img src="https://images.ctfassets.net/lzny33ho1g45/724KyhK94xdxCVz2wlEUQZ/6bda70bfeb3a32803db28142899e4522/best-website-builders.jpg" alt="Visuel Article 1">
+            <p class="preview">Le nouveau quartier Mareterra a été inauguré en grande pompe par la famille princière le 4 décembre. Ce projet d'envergure avait été confié à Valode & Pistre Architectes, en partenariat avec Renzo Piano Building Workshop ainsi que Michel Desvigne pour la partie paysagiste. Les architectes Norman Foster et Tadao Ando ont aussi été sollicités pour certaines des villas.</p>
+            <button onclick="openModal(1)">Lire plus</button>
+        </div>
+
+
+
+
+
+        <!-- Add more articles as needed -->
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title">Titre de l'article</h2>
+            <div id="modal-body"></div>
+            <button class="modal-close" onclick="closeModal()">Fermer</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Cactus De Monaco. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        const articles = [
+            {
+                title: 'La face sombre de Mareterra',
+                content: `
+                <p>Le nouveau quartier Mareterra a été inauguré en grande pompe par la famille princière le 4 décembre. Ce projet d'envergure avait été confié à Valode & Pistre Architectes, en partenariat avec Renzo Piano Building Workshop ainsi que Michel Desvigne pour la partie paysagiste. Les architectes Norman Foster et Tadao Ando ont aussi été sollicités pour certaines des villas.<br><br>
+            Préservé de la circulation automobile, ce nouveau quartier compte 110 appartements, 10 villas et 4 maisons de ville. Il comprend 12 commerces, 160 places de parking, une marina de 16 anneaux (parce que le diesel, ça ne pollue pas quand c’est sur l’eau, n’est-ce pas ?), 500 mètres de balade sur le littoral, une extension du Grimaldi Forum et une colline végétalisée. Les 124 « logements » aménagés ont, pour l’immense majorité, déjà trouvé preneurs.<br><br>
+            Le coût des travaux a été de 2 milliards d'euros et le chiffre d’affaires total est estimé à 6 milliards d’euros, ce qui donne une belle marge brute de plusieurs milliards d’euros. Pas mal pour ceux qui ont misé sur ce Monopoly grandeur nature qui a tourné au jackpot. Mention spéciale à Patrice Pastor, notre boulimique promoteur national, à l’oligarque kazakh Bulat Utemuratov (un gage de transparence, bien sûr), aux neveux du Prince Albert et à Bouygues qui, par ailleurs, aurait bénéficié en son temps des conseils de Stéphane Braconnier, devenu Président du Tribunal Suprême.<br><br>
+            Les chiffres donnent le vertige : il aura fallu plus de 300 entreprises et jusqu’à 4000 professionnels pour réaliser Mareterra depuis 2016. 750 000 tonnes de sable et 27 000 blocs d’enrochement et de matériaux de ballastage ont été nécessaires. La surface de Mareterra est estimée à 6 hectares, soit seulement 3% de plus pour la superficie totale de la Principauté.<br><br>
+            Dans une déclaration très lyrique et surtout très décomplexée, le Prince Albert a dit : « Mareterra incarne ma vision d’une Principauté qui ose, qui embrasse l’audace, qui a le goût du risque mais qui maitrise son destin et sait écouter l’environnement ». Rien que ça ! Une déclaration si décalée qu’on se demande si S.A.S. n’a pas testé quelque chose de plus fort qu’un espresso ce matin-là.<br><br>
+            Mais derrière cette carte postale, la réalité est un peu plus âpre. Un appel d’offres qui sentait un peu la complaisance maison pour notre champion local, Patrice Pastor, une éviction soyeuse pour la société Marzocco, et un coup de balai brutal pour Antonio Caroli, qui a saisi la justice pour obtenir de Pastor plus de 400 millions d’euros en dédommagement. Ajoutons à cela l’arrivée d’un oligarque kazakh à la réputation plus que douteuse, l’absence totale de logements domaniaux pour les Monégasques, un front de mer à l’esthétique très inégale, des accidents de travail "gênants" et parfois dramatiques, des fournisseurs qui ne gardent pas un souvenir impérissable de l’aventure, et une présence controversée de la famille princière qui, franchement, aurait pu s’abstenir de participer à cette tambouille financière.<br><br>
+            Et pour l’environnement, ce conte de fées ? Ah, disons qu’il y aurait un léger décalage entre le discours officiel et ce qui se passe sous l’eau. Mais chut, ça pourrait ternir la façade.<br><br>
+            En conclusion, Mareterra, c’est comme un court métrage hollywoodien de pacotille. Ça brille, ça en met plein la vue, mais quand on regarde les coulisses, l’histoire est beaucoup moins glamour.</p>
+                <img src="https://via.placeholder.com/800x400" alt="Image dans Article 1">
+                `
+            },
+            {
+                title: 'Article 2 : Un Sujet Captivant',
+                content: `
+                <p>Vestibulum vitae risus tincidunt, vehicula velit id, dictum nunc. Mauris posuere magna in fermentum malesuada.</p>
+                <img src="https://via.placeholder.com/800x400" alt="Image dans Article 2">
+                <p>Cras volutpat, lacus sit amet congue faucibus, nisi felis dapibus magna.</p>
+                `
+            }
+        ];
+
+        function openModal(index) {
+            const article = articles[index - 1];
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalBody = document.getElementById('modal-body');
+
+            modalTitle.textContent = article.title;
+            modalBody.innerHTML = article.content;
+            modal.style.display = 'flex';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
