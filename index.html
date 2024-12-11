@@ -30,35 +30,41 @@
         header h1 {
             margin: 0;
             font-size: 4.5em;
+            line-height:1;
             font-weight: 600;
-            padding-top: 30px;
-            margin: 0px 0 -60px 0;
+            padding-top: 10px;
+            margin: 0px 0 -40px 0;
         }
         header img {
-            margin-bottom: -180px;
+            margin-bottom: -200px;
         }
         .tagline {
-            margin: 200px auto 50px auto;
+            margin: 200px auto 10px auto;
             max-width: 800px;
+            padding: 0 30px;
             text-align: center;
             font-size: 1.6em;
+            line-height: 1.3;
             font-family: "Montserrat", sans-serif;
+            font-weight: 600;
         }
         .container {
             max-width: 800px;
-            margin: 50px auto 50px auto;
+            margin: 30px auto 50px auto;
             padding: 15px;
             background: #fff;
             box-shadow: 0px 0px 10px #666;
         }
         .article {
-            margin-bottom: 50px;
-            padding-bottom: 50px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
             border-bottom: 1px solid #bb0606;
         }
         .article h2 {
-            font-size: 2em;
-            font-weight: 500;
+            font-size: 1.6em;
+            font-weight: 600;
+            line-height: 1;
+            margin-top: 0px;
             margin-bottom: 10px;
             color: #bb0606;
         }
@@ -69,6 +75,7 @@
             margin-bottom: 10px;
         }
         .article .preview {
+            margin-top: 0px;
             margin-bottom: 10px;
         }
         .article button {
@@ -98,20 +105,31 @@
             z-index: 1000;
         }
         .modal-content {
+            text-align:center;
             background: #fff;
             padding: 20px;
-            max-width: 90%;
+            max-width: 75%;
             max-height: 80%;
             overflow-y: auto;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
             border-radius: 5px;
+            font-weight: 500;
+            color: #00004f;
         }
         .modal-content h2 {
+            text-align:left;
             margin-top: 0;
+            color: #00004f;
+        }
+        .modal-content p {
+            text-align:left;
         }
         .modal-content img {
-            width: 100%;
-            margin: 10px 0;
+            width: 60%;
+            margin-left:20% !important;
+            margin-right:20% !important;
+            height:auto;
+            margin-top:10px;
         }
         .modal-close {
             position: fixed;
@@ -119,7 +137,7 @@
             top: 2%;
             right: 2%;
             box-shadow: 0px 0px 10px #bfbdbd;
-            background: #222;
+            background: #bb0606;
             color: #fff;
             border: none;
             padding: 10px 15px;
@@ -129,7 +147,7 @@
             margin-top: 10px;
         }
         .modal-close:hover {
-            background: #555;
+            background: #db5959;
         }
 
         footer {
@@ -155,24 +173,38 @@
     </header>
 
     <div class="tagline">
-        <p>Blog piquant et satirique - Espace de libre expression.<br>Des infos et des angles exclusifs. Des vérités qui dérangent.</p>
+        <p style="margin-bottom:10px;">Blog piquant et satirique - Espace de libre expression.<br><i style="font-size:22px;font-weight:400;">Des infos et des angles exclusifs. Des vérités qui dérangent.</i></p>
     </div>
 
-    <p style="font-size:12px;width:60%;margin:0 auto;">Notre blog satirique sur Monaco est un espace de liberté éditoriale développé par des Monégasques et des Français de la Riviera attachés à la Principauté. Il a vocation à dévoiler des vérités piquantes et à ne pas se satisfaire du robinet d’eau tiède distillé par les potentats locaux et leurs agences de communication. Les valeurs qui animent ses rédacteurs sont la justice, l’intégrité, la transparence, la quête de vérité et le respect du débat public. Nos plumes entendent dénoncer les scandales, la corruption endémique, les mensonges cyniques, les trafics d’influence et la mainmise d’intérêts financiers puissants sur Monaco et ses alentours. Leurs informations émanent de correspondants au Palais Princier, au gouvernement, dans l’administration, la police et la justice monégasques, ainsi que des milieux d’affaires en Principauté, à Nice et à Paris.<br><br>
-    Le Cactus de Monaco est un média libre et indépendant. En tant que citoyens et lanceurs d’alerte potentiels (strictement protégés par l’anonymat), vous avez un rôle à jouer pour faire avancer notre pays empêtré dans ses contradictions et ses tartufferies. Vous pouvez nous faire parvenir des informations que nos équipes de  journalistes et juristes vérifieront soigneusement avant, éventuellement, la moindre publication.<br><br>
-    Lors de son avènement, le Prince Albert voulait faire de Monaco « une puissance de l’éthique ». On en est malheureusement très loin. La liste grise, les affaires monégasques, la corruption immobilière et les conflits d’intérêt au sommet en sont les tristes illustrations. Devant l’incurie d’une gouvernance monégasque anachronique et dépassée, le Cactus de Monaco entend indirectement favoriser la mise en œuvre de la vision initiale du Souverain. Cela grâce à des révélations, des enquêtes et la mise au jour de pratiques condamnables qui souillent la réputation de notre belle Principauté.</p>
+    <p style="font-size:14px;max-width:800px;padding:0 30px;margin:0 auto;text-align:justify;">Notre blog satirique, <i>Le Cactus de Monaco</i> est un espace libre créé par des Monégasques et des Français de la riviera. Il dévoile des vérités dérangeantes et dénonce scandales, corruption, trafics d'influence et mainmise d'intérets financiers sur Monaco. Nos sources proviennent du gouvernement et de l'administration, du Palais, de la police et de la justice, des milieu d'affaires en Principauté comme à Nice et Paris.<br><br>
+    Vous pouvez contribuer à nos enquêtes en transmettant des pistes et informations que nos journalistes et juristes vérifieront. Alors que le Prince Albert promettait en 2005 de faire de Monaco "une puissance de l'éthique", notre Principauté est aujourd'hui engluée dans les affaires et conflis d'intérets. Notre mission : rappeler cette vision engageante et exposer les pratiques qui ternissent notre Principauté.</p>
 
     <div class="container">
-        <!-- Articles -->
-
-
+        <!-- Articles REVERSE ORDER -->
 
 
 
         <div class="article">
             <h2>La face sombre de Mareterra</h2>
-            <img src="img/Patrice-Pastor_Albert-II_handshake.jpg" alt="Visuel Article 1">
+            <img src="img/Patrice-Pastor_Albert-II_handshake.jpg" alt="Patrice Pastor and Albert II Handshake">
             <p class="preview">Le nouveau quartier Mareterra a été inauguré en grande pompe par la famille princière le 4 décembre. Ce projet d'envergure avait été confié à Valode & Pistre Architectes, en partenariat avec Renzo Piano Building Workshop ainsi que Michel Desvigne pour la partie paysagiste. Les architectes Norman Foster et Tadao Ando ont aussi été sollicités pour certaines des villas.</p>
+            <button onclick="openModal(3)">Lire plus</button>
+        </div>
+
+
+        <div class="article">
+            <h2>Une guerre des Roses à Monaco ?</h2>
+            <img src="img/caro-et-chacha.jpg" alt="Charlène et Caroline">
+            <p class="preview">Depuis plusieurs semaines, nos sous-marins rapportent avec insistance que la Princesse Charlène aurait déclaré une «guerre ouverte» à la Princesse Caroline. 
+            Certes les relations entre les deux grandes dames n’ont jamais été au beau fixe, surtout depuis le retour d’Afrique du Sud de l’épouse de S.A.S. en septembre 2022, quand les décibels de leurs échanges houleux faisaient trembler les murs du Palais.</p>
+            <button onclick="openModal(2)">Lire plus</button>
+        </div>
+
+
+        <div class="article">
+            <h2>Le Piment a jeté l’éponge, vive le Cactus !</h2>
+            <img src="img/cactus-a-monaco.webp" alt="Vive le Cactus">
+            <p class="preview">Ah, quelle tragédie épique, digne des grandes fresques dramatiques, mais à la sauce monégasque ! Les chevaliers intrépides du Piment de Monaco ont finalement jeté l'éponge il y a quelques semaines puisqu’ils ont coupé le cordon de leur précieux site d’informations "privilégiées". Pourquoi ? Sans doute écrasés sous le poids des cyber-attaques, des intimidations musclées et des combines douteuses orchestrées par le Palais et la pieuvre monégasque qui a pléthore de moyens.</p>
             <button onclick="openModal(1)">Lire plus</button>
         </div>
 
@@ -196,28 +228,52 @@
         <p>© 2024 Cactus De Monaco. Tous droits réservés.</p>
     </footer>
 
+
+<!-- DESCORDER -->
     <script>
         const articles = [
+            {
+                title: 'Le Piment a jeté l’éponge, vive le Cactus !',
+                content: `
+                <p>Ah, quelle tragédie épique, digne des grandes fresques dramatiques, mais à la sauce monégasque ! Les chevaliers intrépides du Piment de Monaco ont finalement jeté l'éponge il y a quelques semaines puisqu’ils ont coupé le cordon de leur précieux site d’informations "privilégiées". Pourquoi ? Sans doute écrasés sous le poids des cyber-attaques, des intimidations musclées et des combines douteuses orchestrées par le Palais et la pieuvre monégasque qui a pléthore de moyens.<br><br>
+                A l'évidence, les solistes et artistes du Piment n'étaient pas staffés et manquaient de "couilles". Nous, c'est tout le contraire !<br><br> 
+                Mais après tout, est-ce si surprenant ? Ces mousquetaires autoproclamés de la vérité, avec leur air de justiciers héroïques, n'ont finalement pas eu les épaules pour tenir la ligne. Ils ont fini par se dégonfler comme un ballon de baudruche, laissant leur "combat glorieux" contre la corruption et la manipulation s'éteindre dans un souffle pathétique. Dommage, car il faut bien l'admettre, ils avaient un certain panache.<br><br>
+                Depuis leur disparition, c’est le drame au marché de Monaco tous les samedis. Les dames en quête de ragots juteux et les décideurs locaux avides de révélations n’ont plus rien à se mettre sous la dent. Certains auraient même murmuré qu’ils allaient solliciter le Père Noël pour leur ramener le Piment ! Eh oui, ce site manque cruellement à beaucoup.
+                La nature, toujours aussi incapable de tolérer le vide, voit aujourd’hui émerger le Cactus. Oh, pas n’importe quel cactus : une plante bien piquante, corrosive, insolente, prête à asséner quelques vérités bien senties, et qui ne fera pas les mêmes erreurs que les candides du Piment. Et parce que Monaco, ce joyau de la Riviera, semble dépourvu d'humour et d’autodérision – du moins, si l'on en croit la modestie débordante des gens de pouvoir – voilà une noble mission : pulvériser les postures pompeuses, dénoncer les mensonges officiels, le système corruptif, et aussi nous offrir de sacrés bons fous rires.<br><br>
+                Alors que le Palais est désormais dirigé par des individus obliques, funestes et douteux, et tandis qu’une chappe de plomb s’est abattue sur Monaco avec la poussée de corruption et la liste grise, le Cactus, lui, promet de crever l’abcès et de balancer des vérités qui font grincer les dents – tout en s’esclaffant des absurdités ambiantes.<br><br> 
+                Notre canard s’efforcera donc de faire tomber les masques, démontrer l’inanité de la communication officielle du Rocher, et faire rire du comique de certaines situations. Le rire est excellent pour la santé, il libère des endorphines salutaires, permet de prendre du recul et de remettre à leur juste place les intrigants, laquais, bonimenteurs, pompeux, courtisans et fayots de service.   
+                Nous aimons notre pays, nous aimons Monaco et la Riviera, pas pour l’argent, le bling-bling, le béton et les paillettes, mais pour cet art de vivre inimitable, sa quête de bien-vivre, sa convivialité et sa culture faite de curiosité et de tolérance.<br><br>
+                Si le Prince pouvait sortir de sa somnolence, arrêter de tergiverser et de mentir quand ça l’arrange, ne plus parler dans le vide et zigzaguer en rond, cesser d’être apparemment complaisant avec les hommes forts et la corruption, et … s’il décidait ENFIN de remettre la Principauté sur les rails de son avènement, le Cactus se ferait hibiscus.</p>
+                <img src="img/cactus-a-monaco.webp" alt="Vive le Cactus">
+                `
+            },
+            {
+                title: 'Une guerre des Roses à Monaco ?',
+                content: `
+                <p>Depuis plusieurs semaines, nos sous-marins rapportent avec insistance que la Princesse Charlène aurait déclaré une «guerre ouverte» à la Princesse Caroline.<br><br>
+                Certes les relations entre les deux grandes dames n’ont jamais été au beau fixe, surtout depuis le retour d’Afrique du Sud de l’épouse de S.A.S. en septembre 2022, quand les décibels de leurs échanges houleux faisaient trembler les murs du Palais.<br><br>
+                Mais tout ce serait envenimé ces derniers temps. D’abord, au début 2024, Charlène aurait fait savoir que le départ de Palmero avait été très mal géré et que les vives contre-attaques de l’ex-administrateur étaient finalement prévisibles : «on ne se sépare pas d’un vieux serviteur comme ça. Non seulement c’est indigne, mais ça ne peut que vous retomber dessus. On s’est tiré une balle dans le pied ! Quelle bêtise !», aurait-elle dit à la cantonade quand Le Monde a publié ses révélations sur les aspects «rock and roll» de la  famille princière et les magouilles en Principauté.<br><br>
+                Et puis, bien sûr, il y a le duo infernal, ceux que Le Piment appelait Flip & Flip, ces deux joyeux lurons du Palais, Steiner et Zeghdar. Charlène les trouverait sinistres – qui pourrait la blâmer ? – tandis que Caroline, toujours dans sa grande sagesse, semblerait s’en accommoder.<br><br>
+                Mais le clou du spectacle ? Les manœuvres que l’on prête à Caroline pour renforcer la position de son fils Andréa en vue d’une éventuelle régence (voire davantage, soyons fous) ont hérissé le poil de Charlène qui a voulu reprendre les hostilités, afin de remettre à sa place la sœur ainée, qui considère de son devoir de  combler les errances de la gouvernance princière par des ingérences accrues et des manœuvres (trop ?) savantes.<br><br>
+                Car après tout, entre glamour, bling-bling, jeux de pouvoir, argent et secrets de famille, pourquoi se contenter d’une trêve quand on peut s’offrir un chaos royal digne d’un Oscar ?<br><br>
+                Monaco, le nouveau Bollywood ! Sérieusement, qui a besoin de fiction quand la réalité est si délicieusement absurde ?</p>
+                <img src="img/caro-et-chacha.jpg" alt="Charlène et Caroline">
+                <i>La détestation réciproque entre les deux princesses viendrait de franchir un nouveau palier</i>
+                `
+            },
             {
                 title: 'La face sombre de Mareterra',
                 content: `
                 <p>Le nouveau quartier Mareterra a été inauguré en grande pompe par la famille princière le 4 décembre. Ce projet d'envergure avait été confié à Valode & Pistre Architectes, en partenariat avec Renzo Piano Building Workshop ainsi que Michel Desvigne pour la partie paysagiste. Les architectes Norman Foster et Tadao Ando ont aussi été sollicités pour certaines des villas.<br><br>
             Préservé de la circulation automobile, ce nouveau quartier compte 110 appartements, 10 villas et 4 maisons de ville. Il comprend 12 commerces, 160 places de parking, une marina de 16 anneaux (parce que le diesel, ça ne pollue pas quand c’est sur l’eau, n’est-ce pas ?), 500 mètres de balade sur le littoral, une extension du Grimaldi Forum et une colline végétalisée. Les 124 « logements » aménagés ont, pour l’immense majorité, déjà trouvé preneurs.<br><br>
-            Le coût des travaux a été de 2 milliards d'euros et le chiffre d’affaires total est estimé à 6 milliards d’euros, ce qui donne une belle marge brute de plusieurs milliards d’euros. Pas mal pour ceux qui ont misé sur ce Monopoly grandeur nature qui a tourné au jackpot. Mention spéciale à Patrice Pastor, notre boulimique promoteur national, à l’oligarque kazakh Bulat Utemuratov (un gage de transparence, bien sûr), aux neveux du Prince Albert et à Bouygues qui, par ailleurs, aurait bénéficié en son temps des conseils de Stéphane Braconnier, devenu Président du Tribunal Suprême.<br><br>
+            Le coût des travaux a été de 2 milliards d'euros et le chiffre d’affaires total est estimé à 6 milliards d’euros, ce qui donne une belle marge brute de plusieurs milliards d’euros. Pas mal pour ceux qui ont misé sur ce Monopoly grandeur nature qui a tourné au jackpot. Mention spéciale à Patrice Pastor, notre boulimique promoteur national qui a drivé le projet, à l’oligarque kazakh Bulat Utemuratov (un gage de transparence, bien sûr), aux neveux du Prince Albert et à Bouygues qui, par ailleurs, aurait bénéficié en son temps des conseils de Stéphane Braconnier, devenu Président du Tribunal Suprême.<br><br>
             Les chiffres donnent le vertige : il aura fallu plus de 300 entreprises et jusqu’à 4000 professionnels pour réaliser Mareterra depuis 2016. 750 000 tonnes de sable et 27 000 blocs d’enrochement et de matériaux de ballastage ont été nécessaires. La surface de Mareterra est estimée à 6 hectares, soit seulement 3% de plus pour la superficie totale de la Principauté.<br><br>
             Dans une déclaration très lyrique et surtout très décomplexée, le Prince Albert a dit : « Mareterra incarne ma vision d’une Principauté qui ose, qui embrasse l’audace, qui a le goût du risque mais qui maitrise son destin et sait écouter l’environnement ». Rien que ça ! Une déclaration si décalée qu’on se demande si S.A.S. n’a pas testé quelque chose de plus fort qu’un espresso ce matin-là.<br><br>
-            Mais derrière cette carte postale, la réalité est un peu plus âpre. Un appel d’offres qui sentait un peu la complaisance maison pour notre champion local, Patrice Pastor, une éviction soyeuse pour la société Marzocco, et un coup de balai brutal pour Antonio Caroli, qui a saisi la justice pour obtenir de Pastor plus de 400 millions d’euros en dédommagement. Ajoutons à cela l’arrivée d’un oligarque kazakh à la réputation plus que douteuse, l’absence totale de logements domaniaux pour les Monégasques, un front de mer à l’esthétique très inégale, des accidents de travail "gênants" et parfois dramatiques, des fournisseurs qui ne gardent pas un souvenir impérissable de l’aventure, et une présence controversée de la famille princière qui, franchement, aurait pu s’abstenir de participer à cette tambouille financière.<br><br>
+            Mais derrière cette carte postale, la réalité est un peu plus âpre. Un appel d’offres qui sentait la complaisance maison pour notre champion local, Patrice Pastor, une éviction soyeuse de la société Marzocco, et un coup de balai brutal pour Antonio Caroli, qui a saisi la justice pour obtenir de Pastor plus de 400 millions d’euros en dédommagement. Ajoutons à cela l’arrivée d’un oligarque kazakh à la réputation douteuse, l’absence totale de logements domaniaux pour les Monégasques, un front de mer à l’esthétique Dubaïsée et très inégale, des accidents de travail "gênants" et parfois dramatiques, des fournisseurs qui ne gardent pas un souvenir impérissable de l’aventure, et une présence controversée de la famille princière qui, franchement, aurait pu s’abstenir de participer à cette tambouille financière. La poignée de main bizarre entre S.A.S. et celui qui se fait appeler le Roi de Monaco en privé en dit long... Sans parler du visage de Pastor affiché en plein ciel pendant le méga-feu d'artifice lors de l'innauguration, un feu d'artifice encore plus grandiose que ceux de l'avènement et de la Fête Nationale !<br><br>
             Et pour l’environnement, ce conte de fées ? Ah, disons qu’il y aurait un léger décalage entre le discours officiel et ce qui se passe sous l’eau. Mais chut, ça pourrait ternir la façade.<br><br>
             En conclusion, Mareterra, c’est comme un court métrage hollywoodien de pacotille. Ça brille, ça en met plein la vue, mais quand on regarde les coulisses, l’histoire est beaucoup moins glamour.</p>
                 <img src="img/Patrice-Pastor_Albert-II_handshake.jpg" alt="Patrice Pastor and Albert II Handshake">
-                `
-            },
-            {
-                title: 'Article 2 : Un Sujet Captivant',
-                content: `
-                <p>Vestibulum vitae risus tincidunt, vehicula velit id, dictum nunc. Mauris posuere magna in fermentum malesuada.</p>
-                <img src="https://via.placeholder.com/800x400" alt="Image dans Article 2">
-                <p>Cras volutpat, lacus sit amet congue faucibus, nisi felis dapibus magna.</p>
+                <i>S.A.S. et le "Roi de Monaco" : une poignée de main explicite</i>
                 `
             }
         ];
