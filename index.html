@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -84,6 +83,23 @@
         .article .preview {
             margin-top: 0px;
             margin-bottom: 10px;
+        }
+        button.first {
+            background-color: #fff;
+            width: 100%;
+            text-align: left;
+            padding: 0px;
+            border-bottom: 5px solid #bb0606;
+        }
+        button.first:hover {
+            background-color: #fff;
+        }
+        button.first img {
+            margin-bottom: -4px;
+            transition: .4s;
+        }
+        button.first img:hover {
+            filter: opacity(0.7);
         }
         .article button {
             background-color: #bb0606;
@@ -206,8 +222,8 @@
 
 
         <div class="article">
-            <h2>Sécurité routière : tête à queue de la communication du Palais</h2>
-            <img src="img/GMK-Albert.webp" alt="Police Monaco">
+            <button onclick="openModal(9)"><h2>Sécurité routière : tête à queue de la communication du Palais</h2>
+            <img src="img/GMK-Albert.webp" alt="Police Monaco"></button>
             <p class="preview">L’émotion reste immense après les deux accidents graves du week-end, liés à l’alcool et une vitesse excessive, qui ont causé cinq blessés graves.
             Lors d’une conférence de presse tenue ce lundi, le Ministre d'Etat, Didier Guillaume, a annoncé des mesures fortes pour lutter contre l'alcoolémie au volant, qui occasionne des comportements à risques comme la vitesse excessive. Des efforts soutenus seront déployés lors de période festive de fin d’année. Puis, un projet de loi sera déposé et voté avant la fin du mois de janvier pour accroître la répression dans la lutte contre ce fléau de l'alcool au volant.</p>
             <button onclick="openModal(9)">Lire plus</button>
@@ -215,56 +231,56 @@
 
 
         <div class="article">
-            <h2>Céline Caron en sursis ?</h2>
-            <img src="img/Caron.webp" alt="Police Monaco">
+            <button onclick="openModal(8)"><h2>Céline Caron en sursis ?</h2>
+            <img src="img/Caron.webp" alt="Police Monaco"></button>
             <p class="preview">Céline Caron-Diagoni, ministre de l’Équipement et de l’Urbanisme depuis septembre 2021, semble jouer les prolongations, mais pour combien de temps encore ? Si l’on en croit certaines indiscrétions du gouvernement et du Palais, ses jours seraient comptés.</p>
             <button onclick="openModal(8)">Lire plus</button>
         </div>
 
 
         <div class="article">
-            <h2>Police-Justice : l’origine des fuites enfin mise à nu ?</h2>
-            <img src="img/police-monaco.webp" alt="Police Monaco">
+            <button onclick="openModal(7)"><h2>Police-Justice : l’origine des fuites enfin mise à nu ?</h2>
+            <img src="img/police-monaco.webp" alt="Police Monaco"></button>
             <p class="preview">Dans le petit théâtre monégasque, on peut presque entendre les violons en arrière-plan : selon des sources concordantes, ce serait Frédéric Aznar, Commandant Principal de Police, qui jouerait les pigeons voyageurs pour s'assurer que les deux diables de service au Palais, Flip et Flop, reçoivent bien leurs petites livraisons de procès-verbaux d’auditions et autres documents de la police concernant les affaires monégasques.</p>
             <button onclick="openModal(7)">Lire plus</button>
         </div>
 
 
         <div class="article">
-            <h2>Le complotiste Steiner n’en finit pas de comploter !</h2>
-            <img src="img/Conseil-national-seance-legislative-Christophe-Steiner.webp" alt="Christophe Steiner">
+            <button onclick="openModal(6)"><h2>Le complotiste Steiner n’en finit pas de comploter !</h2>
+            <img src="img/Conseil-national-seance-legislative-Christophe-Steiner.webp" alt="Christophe Steiner"></button>
             <p class="preview">Ah, Steiner, l'éternel conspirateur en chef ! Flop – surnom affectueusement attribué par feu le regretté Piment – continue d’enrichir sa légendaire carrière de splendeurs. Ce Directeur de Cabinet du Prince, connu par le microcosme monégasque comme un visionnaire du complotisme tendance extrême droite, traîne derrière lui un CV à l’odeur de brûlé. Mais attention, pas un mot sur sa collection de casseroles, bien évidemment.</p>
             <button onclick="openModal(6)">Lire plus</button>
         </div>
 
         
         <div class="article">
-            <h2>Stéphane Bern, le roi des breloques dorées</h2>
-            <img src="img/bal-de-la-rose-monaco-disco-stephane-bern-et-husband-jc-vinaj.webp" alt="Stéphane Bern Bal de la Rose">
+            <button onclick="openModal(5)"><h2>Stéphane Bern, le roi des breloques dorées</h2>
+            <img src="img/bal-de-la-rose-monaco-disco-stephane-bern-et-husband-jc-vinaj.webp" alt="Stéphane Bern Bal de la Rose"></button>
             <p class="preview">Le coruscant Stéphane Bern, écrivain reconnu, journaliste en quête de faveurs et conteur intarissable – pour ne pas dire interminable – vient d’ajouter une nouvelle médaille à son panthéon personnel : il a été sacré Officier dans l’Ordre des Grimaldi (Journal 8722, 22 Novembre 2024). Une information qui n’étonnera personne, tant le personnage est devenu le porte-drapeau officieux, zélé mais apparemment très bien payé du Rocher, oscillant entre publi-reportages bien léchés et animations mondaines.</p>
             <button onclick="openModal(5)">Lire plus</button>
         </div>
 
         
         <div class="article">
-            <h2>Le roi de Monaco aux cieux, les Monégasques au tapis</h2>
-            <img src="img/night-sky-monaco.gif" alt="Patrice Pastor night sky">
+            <button onclick="openModal(4)"><h2>Le roi de Monaco aux cieux, les Monégasques au tapis</h2>
+            <img src="img/night-sky-monaco.gif" alt="Patrice Pastor night sky"></button>
             <p class="preview">L'inauguration de l'extension en mer Mareterra, le 4 décembre dernier, a été l’occasion d’un spectacle pyrotechnique d'une belle démesure. Feux d'artifice à couper le souffle, drones illuminant le ciel, et, cerise sur le gâteau, le visage de Patrice Pastor, dessiné dans les airs. Oui, vous avez bien lu. Patrice Pastor, trônant au firmament, dominant Monaco pendant de longues secondes. Pas mal, pour un magnat qui n’a pas besoin d’un trône officiel pour régner. On aurait presque cru à un spin-off de King Kong, version Monacovision.</p>
             <button onclick="openModal(4)">Lire plus</button>
         </div>
 
 
         <div class="article">
-            <h2>La face sombre de Mareterra</h2>
-            <img src="img/Patrice-Pastor_Albert-II_handshake.webp" alt="Patrice Pastor and Albert II Handshake">
+            <button onclick="openModal(3)"><h2>La face sombre de Mareterra</h2>
+            <img src="img/Patrice-Pastor_Albert-II_handshake.webp" alt="Patrice Pastor and Albert II Handshake"></button>
             <p class="preview">Le nouveau quartier Mareterra a été inauguré en grande pompe par la famille princière le 4 décembre. Ce projet d'envergure avait été confié à Valode & Pistre Architectes, en partenariat avec Renzo Piano Building Workshop ainsi que Michel Desvigne pour la partie paysagiste. Les architectes Norman Foster et Tadao Ando ont aussi été sollicités pour certaines des villas.</p>
             <button onclick="openModal(3)">Lire plus</button>
         </div>
 
 
         <div class="article">
-            <h2>Une guerre des Roses à Monaco ?</h2>
-            <img src="img/caro-et-chacha.webp" alt="Charlène et Caroline">
+            <button onclick="openModal(2)"><h2>Une guerre des Roses à Monaco ?</h2>
+            <img src="img/caro-et-chacha.webp" alt="Charlène et Caroline"></button>
             <p class="preview">Depuis plusieurs semaines, nos sous-marins rapportent avec insistance que la Princesse Charlène aurait déclaré une «guerre ouverte» à la Princesse Caroline. 
             Certes les relations entre les deux grandes dames n’ont jamais été au beau fixe, surtout depuis le retour d’Afrique du Sud de l’épouse de S.A.S. en septembre 2022, quand les décibels de leurs échanges houleux faisaient trembler les murs du Palais.</p>
             <button onclick="openModal(2)">Lire plus</button>
@@ -272,8 +288,8 @@
 
 
         <div class="article">
-            <h2>Le Piment a jeté l’éponge, vive le Cactus !</h2>
-            <img src="img/cactus-a-monaco.webp" alt="Vive le Cactus">
+            <button onclick="openModal(1)"><h2>Le Piment a jeté l’éponge, vive le Cactus !</h2>
+            <img src="img/cactus-a-monaco.webp" alt="Vive le Cactus"></button>
             <p class="preview">Ah, quelle tragédie épique, digne des grandes fresques dramatiques, mais à la sauce monégasque ! Les chevaliers intrépides du Piment de Monaco ont finalement jeté l'éponge il y a quelques semaines puisqu’ils ont coupé le cordon de leur précieux site d’informations "privilégiées". Pourquoi ? Sans doute écrasés sous le poids des cyber-attaques, des intimidations musclées et des combines douteuses orchestrées par le Palais et la pieuvre monégasque qui a pléthore de moyens.</p>
             <button onclick="openModal(1)">Lire plus</button>
         </div>
