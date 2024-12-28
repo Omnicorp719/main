@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -197,7 +198,7 @@
 <body>
     <header>
         <a href="https://cactusdemonaco.com"><h1>Cactus de Monaco</h1>
-        <img src="img/small-cactus-christmas.webp" width="200" height="auto" alt="Cactus Logo"></a>
+        <img src="img/small-cactus.webp" width="200" height="auto" alt="Cactus Logo"></a>
     </header>
 
     <div class="tagline">
@@ -210,6 +211,22 @@
     <div class="container">
         <!-- REVERSE ORDER -->
 
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(20)"><h2>S.A.S. continuerait de passer du bon temps au Domaine de Marchais</h2>
+                <img src="img/sas-marchais.webp" alt="S.A.S. au domaine de Marchais"></button>
+                <p class="preview">D'après des sources bien informées au Palais, notre Prince Albert, absent de Monaco pour assister à l’inauguration de la Cathédrale de Notre-Dame, aurait préalablement passé quatre jours au château de Marchais, situé dans l’Aisne, sur la commune du même nom, à 12 km au nord-est de Laon et à 160 km de Paris.</p>
+                <button onclick="openModal(20)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(19)"><h2>Bêtisier de Noël</h2>
+                <img src="img/betisier-de-noel.webp" alt="Bêtisier de Noël"></button>
+                <p class="preview">Quelques perles ont jalonné ces derniers temps. Voici un petit florilège...</p>
+                <button onclick="openModal(19)">Lire plus</button>
+            </div>
 
 
             <div class="article">
@@ -600,7 +617,7 @@
                 content: `
                 <p>Nous avons reçu une curieuse mise au point du Directeur de Cabinet du Palais qui nous a beaucoup intrigués. En voici le texte intégral :
                 «  Je démens vigoureusement les allégations fausses que le Cactus de Monaco a publiées récemment et tiens à partager avec ses lecteurs un narratif pertinent me concernant.<br><br>
-                J’ai effectué des études brillantes à l’Université Libre de Monaco, même si mes débuts en première année de droit ont été compliqués. J’ai commencé par travailler pour Merill Lynch dont mon père était un client fortuné. Au bout de quelque temps, Merill Lynch m’a remercié mais pas viré. J’ai ensuite donné toute satisfaction chez Tilney, au  SICCFIN, au secrétariat du département des finances, puis à la Commission de Contrôle des Activités Financières (CCAF). Je crois pouvoir dire que ces organisations se louent encore de l’appui que je leur ai prodigué ainsi que de l’efficacité de mes actions.<br><br>
+                J’ai effectué des études brillantes à l’Université Libre de Monaco, même si mes débuts en première année de droit ont été compliqués (sans doute pour cela que j'ai du mal avec l'Etat de droit). J’ai commencé par travailler pour Merill Lynch dont mon père était un client fortuné. Au bout de quelque temps, Merill Lynch m’a remercié mais pas viré. J’ai ensuite donné toute satisfaction chez Tilney, au  SICCFIN, au secrétariat du département des finances, puis à la Commission de Contrôle des Activités Financières (CCAF). Je crois pouvoir dire que ces organisations se louent encore de l’appui que je leur ai prodigué ainsi que de l’efficacité de mes actions.<br><br>
                 C’est à la demande des élus du Conseil National et seulement pour rendre service que j’en ai pris brièvement la présidence pendant deux ans. Il n’y a pas eu la moindre trahison de qui que ce soit. Grâce au  temps passé au Conseil National, je suis devenu expert en jeux vidéo sur mon téléphone mobile.<br><br>
                 Etre Ambassadeur en France pendant cinq ans m’a permis d’obtenir la Légion d’Honneur, de mieux comprendre le microcosme français, de tisser des relations bénéfiques pour la Principauté, d’approfondir mes connaissances géopolitiques, et de découvrir les meilleures tables pour faire un Guide des Meilleurs Restaurants de Paris (Editions du Rocher) qui fait toujours autorité et continue de circuler sous le manteau.<br><br>
                 J’ai accepté de devenir Directeur de Cabinet du Prince pour rendre service à ma communauté. Travailleur assidu et acharné, je conteste les ragots véhiculés par des salariés jaloux sur mes soi-disant absences à répétition au Palais. Si je fais des séances en salle de fitness avec mon coach Tomatis, c’est pour booster ma condition physique et mentale, afin d’être encore plus efficace dans mes importantes fonctions. Au passage, mon excellent collègue Salim Zeghdar ferait bien, lui aussi, d’aller faire de la gym régulièrement avec moi. C’est bon pour le moral.<br><br>
@@ -610,6 +627,39 @@
                 Patriote sincère, mon seul mantra est de travailler au quotidien et de m’engager pour l’intérêt général. Même si je souffre d’un petit complexe d’usurpateur, je m’efforce d’être exemplaire et utile dans tout ce que j’accomplis ». Christophe Steiner.<br><br>
                 APRES VERIFICATION APPROFONDIE PAR LE CACTUS, IL S’AVERE QUE CETTE MISE AU POINT EST UN FAUX GROSSIER ! AU PANIER !</p>
                 <img src="img/lettre-flop.webp" alt="Lettre anonyme">
+                `
+            },
+            {
+                id: 'betisier-de-noel',
+                title: 'Bêtisier de Noël',
+                content: `
+                <p>Quelques perles ont jalonné ces derniers temps. Voici un petit florilège...<br><br>
+                <ul>
+                    <li>A propos de l’éviction en Septembre 2024 de Sylvie Petit-Leclair, Ministre de la Justice de 2022 à Septembre 2024, le Prince Albert s’est justifié auprès de l’intéressée et d’autres interlocuteurs en disant : «  J’étais sous pression du Palais ». Un summum ou un sommet éligible au Cactus de l’année !</li>
+                    <li>Le slogan de TV Monaco, c'était  : "Regardez, ça n'a rien à voir". En fait, il n’y avait effectivement rien à voir, au point que la chaîne dispendieuse va cesser d’exister en 2025.</li>
+                    <li>«  J’ai donc pris la décision d’installer une nouvelle équipe. Le plus important, pour moi, est avant tout la COMPETENCE », avait déclaré le Prince dans une interview au Figaro. Faut dire que les CV de Zeghdar et Steiner, alias Flip et Flop, sont vraiment impressionnants. Des monuments de compétence !! Passons sur le fait que Flop a fait des premières années de droit à répétition … et que Flip n’y connait rien en économie, finances et comptabilité, ce qui est curieux pour une Administrateur de Biens ; quant à ses notions de droit, elles ont dû être acquises à La Havane.</li>
+                    <li>Lors du lancement blingbling de TV Monaco et son entrée dans TV5 Monde, le Prince déclare : « C’est une grande fierté. Il y a le désir de faire rayonner la Principauté à travers le monde ». L’aventure budgétivore de la chaîne indigente aura duré à peine 18 mois et le retrait annoncé de TV5 Monde porte un coup à l’ambition de rayonnement de notre pays. Rappelons que ce projet bancal avait été initialement conçu par l’ex-Administrateur des Biens, Claude Palmero, ce qui n'est pas à mettre à son actif ! Au début, Thierry Lacoste avait également trempé dedans.</li>
+                    <li>Au pinacle des entretiens bêtisiers, l’interview « de référence » de Salim Zeghdar dans Monaco Matin du 19 Octobre 2024, farcie de bourdes et d’affirmations douteuses, intitulée : « On a fait le ménage ». Peut-être devrait-il se l’appliquer à  lui-même ?</li>
+                    <li>Didier Guillaume à Monaco Matin en Septembre 2024 dans un propos complaisant : «  Le Souverain, dans son discours d’avènement en 2005, voulait que Monaco soit un pays modèle. Et je peux affirmer que Monaco est un pays avec une éthique ». Les développements depuis deux ans montrent pourtant qu’une pandémie de corruption gangrène le pays, surtout dans l’immobilier.</li>
+                    <li>Stéphane Braconnier, Président du Tribunal Suprême, lors de la rentrée judiciaire début octobre : «  si nous voulons un Etat de droit solide, il faut un juge serein et rigoureux qui s’appuie sur un Droit solide. Un Etat solide, c’est un Etat de droit, respectueux des droits, un Etat dont les règles sont respectées, où les droits sont garantis, par la norme et l’accès au juge, où les pouvoirs se parlent sans se confondre ». Un conte de fées pompeux et déconnecté, vu la concentration et la confusion des pouvoirs régnant ici en Principauté. Des PV d’auditions sont apportés en toute illégalité au Palais, des plaintes restent au point mort tandis que d’autres sont instruites sur le mode accéléré, sans parler des barbouzeries visant des citoyens monégasques, ourdies par un Palais qui cherche à instrumentaliser police et justice. Quant au Tribunal dit Suprême, il est sans doute « incompétent » à force de se déclarer comme tel dans de nombreuses requêtes.</li>
+                    <li>Le Prince au Conseil de l’Europe pour les vingt ans de l’adhésion de Monaco avec un discours vibrant : « J’affirme l’attachement indéfectible de Monaco aux trois piliers de la démocratie que sont l’Etat de droit, les droits de l’homme et la démocratie ». Quand on creuse, c’est le grand écart ! La seule institution démocratique à Monaco est le Conseil National. Quant au reste …</li>
+                </ul>
+                </p>
+                <img src="img/betisier-de-noel.webp" alt="Bêtisier de Noël">
+                `
+            },
+            {
+                id: 'sas-au-domaine-de-marchais',
+                title: 'S.A.S. continuerait de passer du bon temps au Domaine de Marchais',
+                content: `
+                <p>D'après des sources bien informées au Palais, notre Prince Albert, absent de Monaco pour assister à l’inauguration de la Cathédrale de Notre-Dame, aurait préalablement passé quatre jours au château de Marchais, situé dans l’Aisne, sur la commune du même nom, à 12 km au nord-est de Laon et à 160 km de Paris.<br><br>
+                Le jet privé de S.A.S. se serait posé sur un aérodrome proche, celui de Laon-Chambry ou à Reims. Pendant ses quatre jours de mise au vert – où il semble avoir pris grand soin de ses affaires de détente – Albert II, apparemment accompagné de ses fidèles compagnons de soirée et de l'incontournable Zeghdar, aurait surtout poursuivi une activité essentielle : chasser, faire ripaille et s’en mettre plein la panse, et, bien sûr, bien boire … Une retraite arrosée, une fois de plus, histoire de se remettre en forme avant les festivités d’inauguration de Notre-Dame et le marathon de fêtes de fin d'année.<br><br>
+                Le Domaine de Marchais, ancienne propriété des Ducs de Guise, est une résidence privée des Grimaldi depuis 1854. Ah, quelle belle tradition ! Le Prince Albert Ier  l’adorait et y a passé de nombreuses années. Il y organisera des parties de chasse et recevra des invités de marque. Des expériences scientifiques ont également lieu au château. S'intéressant particulièrement aux progrès de la télégraphie sans fil, il met son domaine à la disposition des ingénieurs pour faire la démonstration de la transmission par la terre et sans fil des ondes électriques.<br><br>
+                La Princesse Charlotte, mère du Prince Rainier, y a séjourné avec son illustre amant René La Canne, un malfaiteur notoire dont les exploits dans les années 1940 et 1950 incluent, entre autres, des attaques à main armée et des cambriolages de bijouteries et d’appartements de luxe. Un homme de goût, à n'en pas douter. Mais il n’a tué personne, bien sûr, ce qui doit être un gage de raffinement dans ce cercle très sélect. René La Canne, ce héros des évasions spectaculaires, a dû apporter une touche d'adrénaline bien nécessaire à cette retraite haut de gamme.<br><br>
+                Le château de Marchais, fidèle à son rôle de résidence discrète du Prince, est caché au cœur de la forêt, loin des regards indiscrets. La Princesse Caroline, elle aussi, ne manque jamais l'occasion de s’y évader (la dernière fois en août 2024, pour être précis).<br><br>
+                En juin 2022, dans un grand coup de publicité, Stéphane Bern, ce grand ami désintéressé du Prince Albert II, a enfin pu faire visiter la demeure au public dans son émission "Secrets d’Histoire". « Aucune caméra n’a jamais filmé ce château ! » avait-il déclaré, sans doute pour exciter un peu l’imaginaire populaire. Depuis, Paris Match et Gala, ces magazines inépuisables, ont trouvé un nouveau terrain de jeu et ont rivalisé de papiers « exclusifs » sur ce lieu mythique et jadis secret.<br><br>
+                La famille Grimaldi a l’habitude de poser ses valises à Marchais un ou deux week-ends en été, ou bien en septembre ou en février, périodes propices à la chasse. "<i>Le prince Albert n’est pas un vrai chasseur</i>, a indiqué Jacques Pestel. <i>Il aime trop la nature. Quand il a l’animal au bout de son fusil, il a du mal à tirer. En revanche, sa sœur, la princesse Caroline, est une mordue . C’est elle qui s’occupe des chiens de sang. Cela consiste à retrouver les animaux blessés pour ne pas les laisser souffrir. Quant à la princesse Stéphanie, on ne la voit jamais ici. Ce n’est pas son truc, la campagne.</i>"</p>
+                <img src="img/sas-marchais.webp" alt="S.A.S. au domaine de Marchais">
                 `
             }
         ];
