@@ -218,9 +218,17 @@
 
 
             <div class="article">
+                <button class="first" onclick="openModal(37)"><h2>Le Flip, un drone pliable révolutionnaire qui pourrait relancer le marché</h2>
+                <img src="img/drone-flip.webp" alt="Drône Flip"></button>
+                <p class="preview">Ah, le Flip ! Voilà le dernier gadget à la mode que DJI a pondu, un drone qui ressemble à un jouet mais qui a l’air de vouloir révolutionner tout le marché. Ultra-léger, il pèse même pas 250 g, du coup, t’as plus à te soucier des galères administratives avec les drones lourds qui te collent des restrictions à chaque coin de rue. Niveau performance, il fait du 48 MP en photo et des vidéos 4K HDR à 60 images par seconde, histoire que tu puisses frimer avec ton matos tout en capturant des paysages. En plus, il est super simple à utiliser – tu peux même le faire décoller et atterrir en le lançant directement de ta main et le piloter avec un smartphone ou même par commande vocale. Et tout ça pour à peine 630€, une broutille quand on voit ce qu’il peut faire.</p>
+                <button onclick="openModal(37)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
                 <button class="first" onclick="openModal(36)"><h2>La Gâchette de Monaco : le parti d’en rire</h2>
                 <img src="img/gachette.webp" alt="Gachette de Monaco"></button>
-                <p class="preview">La Gâchette de Monaco se définit comme « un site internet monégasque d’information généraliste fondé en 2016, asservi par une direction omnipotente à la tête d’une équipe de stagiaires non rémunérés ». La Gâchette de Monaco est un site internet monégasque d’information généraliste fondé en 2016, asservi par une direction omnipotente à la tête d’une équipe de stagiaires non rémunérés.  <a href="https://lagachettedemonaco.com/" target="_blank">https://lagachettedemonaco.com/</a></p>
+                <p class="preview">La Gâchette de Monaco se définit comme « un site internet monégasque d’information généraliste fondé en 2016, asservi par une direction omnipotente à la tête d’une équipe de stagiaires non rémunérés ». Sur ce site, il est écrit : « La Gâchette de Monaco est un site internet monégasque d’information généraliste fondé en 2016, asservi par une direction omnipotente à la tête d’une équipe de stagiaires non rémunérés. » <a href="https://lagachettedemonaco.com/" target="_blank">https://lagachettedemonaco.com/</a></p>
                 <button onclick="openModal(36)">Lire plus</button>
             </div>
 
@@ -1011,16 +1019,27 @@
                 id: 'gachette-monaco',
                 title: 'La Gâchette de Monaco : le parti d’en rire',
                 content: `
-                <p>La Gâchette de Monaco se définit comme « un site internet monégasque d’information généraliste fondé en 2016, asservi par une direction omnipotente à la tête d’une équipe de stagiaires non rémunérés ». La Gâchette de Monaco est un site internet monégasque d’information généraliste fondé en 2016, asservi par une direction omnipotente à la tête d’une équipe de stagiaires non rémunérés.  <a href="https://lagachettedemonaco.com/" target="_blank">https://lagachettedemonaco.com/</a><br><br>
+                <p>La Gâchette de Monaco se définit comme « un site internet monégasque d’information généraliste fondé en 2016, asservi par une direction omnipotente à la tête d’une équipe de stagiaires non rémunérés ». Sur ce site, il est écrit : « La Gâchette de Monaco est un site internet monégasque d’information généraliste fondé en 2016, asservi par une direction omnipotente à la tête d’une équipe de stagiaires non rémunérés. »  https://lagachettedemonaco.com/<br><br>
                 Lire la Gâchette de Monaco est un véritable régal. Ces dernières temps, La Gâchette a publié quelques articles dont voici des morceaux choisis :
-                La justice se pique sur le Jardin Exotique ! <br><br>
-                « Selon nos sources contradictoires, un magistrat qui pensait juger une plainte contre un site d’information virulent vient de condamner le Jardin Exotique de Monaco pour apologie des cactus… Les responsables ont interjeté appel, afin d’éviter que les plantes succulentes ne soient remplacées par des marguerites et des hortensias…<br><br>
-                Selon nos sources contradictoires, un magistrat qui pensait juger une plainte contre un site d’information virulent vient de condamner le Jardin Exotique de Monaco pour apologie des cactus… Les responsables ont interjeté appel, afin d’éviter que les plantes succulentes ne soient remplacées par des marguerites et des hortensias… ». (21 décembre)<br><br>
-                La future grille des Programme de la nouvelle TV Monégasque (extrait)
-                « Enfin, nous aurons une quotidienne nommée TPMP (Touche pas à mon Palais), une émission qui ne manquera pas de piment, présentée par un inconnu déguisé en cactus. » (19 décembre)<br><br>
-                La Principauté ne risque pas de manquer de piquant ! (extraits)
-                « Après la mystérieuse disparition du site « le piment de Monaco », et l’apparition (…) de son clone « Cactus de Monaco », nos sources contradictoires nous ont rapporté qu’il se murmure dans les couloirs de la maréchaussée que les noms de domaine « caroubier de Monaco », « ficus de Monaco » et « courgette de Monaco » ont déjà déposés. » (17 décembre)</p>
+                1/ « La justice se pique sur le Jardin Exotique ! Selon nos sources contradictoires, un magistrat qui pensait juger une plainte contre un site d’information virulent vient de condamner le Jardin Exotique de Monaco pour apologie des cactus… Les responsables ont interjeté appel, afin d’éviter que les plantes succulentes ne soient remplacées par des marguerites et des hortensias… <br><br>
+                Selon nos sources contradictoires, un magistrat qui pensait juger une plainte contre un site d’information virulent vient de condamner le Jardin Exotique de Monaco pour apologie des cactus… Les responsables ont interjeté appel, afin d’éviter que les plantes succulentes ne soient remplacées par des marguerites et des hortensias… ». (21 décembre)
+                2/ « La future grille des Programme de la nouvelle TV Monégasque (extrait) : « enfin, nous aurons une quotidienne nommée TPMP (Touche pas à mon Palais), une émission qui ne manquera pas de piment, présentée par un inconnu déguisé en cactus. » (19 décembre)<br><br>
+                3/ « La Principauté ne risque pas de manquer de piquant ! (extraits) : après la mystérieuse disparition du site « le Piment de Monaco », et l’apparition (…) de son clone « Cactus de Monaco », nos sources contradictoires nous ont rapporté qu’il se murmure dans les couloirs de la maréchaussée que les noms de domaine « caroubier de Monaco », « ficus de Monaco » et « courgette de Monaco » ont déjà déposés. » (17 décembre)<br><br>
+                Pour un bon moment de détente, lisez la Gâchette.<br>
+                Désolé pour l’humour de chasseur !</p>
                 <img src="img/gachette.webp" alt="Gachette de Monaco">
+                `
+            },
+            {
+                id: 'drone-flip',
+                title: 'Le Flip, un drone pliable révolutionnaire qui pourrait relancer le marché',
+                content: `
+                <p>Ah, le Flip ! Voilà le dernier gadget à la mode que DJI a pondu, un drone qui ressemble à un jouet mais qui a l’air de vouloir révolutionner tout le marché. Ultra-léger, il pèse même pas 250 g, du coup, t’as plus à te soucier des galères administratives avec les drones lourds qui te collent des restrictions à chaque coin de rue. Niveau performance, il fait du 48 MP en photo et des vidéos 4K HDR à 60 images par seconde, histoire que tu puisses frimer avec ton matos tout en capturant des paysages. En plus, il est super simple à utiliser – tu peux même le faire décoller et atterrir en le lançant directement de ta main et le piloter avec un smartphone ou même par commande vocale. Et tout ça pour à peine 630€, une broutille quand on voit ce qu’il peut faire.<br><br>
+                Mais bien sûr, ce petit bijou n’est pas qu’une question de technologie, c’est aussi un bon coup pour relancer le marché du drone qui galère à cause des réglementations à n’en plus finir. 
+                Et si on y pense un peu, Monaco pourrait bien devenir le terrain de jeu idéal pour ce drone, vu la quantité de tournages et d’événements qui s’y déroulent. Sans parler de la lutte contre l’insécurité routière et les milliers de passionnés de photo qui vivent en Principauté.<br><br>
+                Une vraie aubaine pour Salim Zeghdar (alias "Flip"), l’homme aux mille casquettes, qui pourrait bien en profiter pour se rabibocher et échanger avec Erwan Grimaud, notre expert monégasque des drones qu’il aurait légèrement « tourmenté » (mais ça c’était en 2023 et 2024). Dans ses vœux pour 2025, notre Prince avait appelé à l’unité et à l’apaisement. Pas impossible pour notre Flip du Palais, même si sa réputation est d’être, parfois, vindicatif et rancunier. <br><br>
+                On prie Sainte Dévote pour que ce bouillonnant homme à tout faire se calme, arrête de faire des vagues, et devienne aussi smooth que ce nouveau drone. 2025, c’est l’année de la réconciliation, non ?</p>
+                <img src="img/drone-flip.webp" alt="Drône Flip">
                 `
             }
         ];
