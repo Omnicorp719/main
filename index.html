@@ -218,6 +218,30 @@
 
 
             <div class="article">
+                <button class="first" onclick="openModal(43)"><h2>Un nouveau feuilleton : qui va bien pouvoir remplacer Didier Guillaume ?</h2>
+                <img src="img/nouveau-feuilleton.webp" alt="Un nouveau feuilleton"></button>
+                <p class="preview">La disparition brutale de Didier Guillaume a été un traumatisme pour Monaco. D'abord parce que c'était un type plutôt sympa, humain et politique, dans le bon sens du terme, et ensuite parce qu'il avait l'air de savoir ce qui se tramait dans les coulisses de la Principauté.</p>
+                <button onclick="openModal(43)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(42)"><h2>Quand l’épouse du Maréchal Pétain festoyait au Palais princier</h2>
+                <img src="img/petain.webp" alt="L’épouse du Maréchal Pétain au Palais princier"></button>
+                <p class="preview">Annie Pétain, épouse de Philippe Pétain, Maréchal de France et Chef de l’Etat français de 1940 à 1944, a souvent déjeuné et dîné au Palais princier d’Octobre 1940 jusqu’en 1944. Pour l'historien Jean-Yves Le Naour, Mme Annie Pétain est « une vieille femme acariâtre et prétentieuse qui a pris des habitudes de grandeur au bon temps de Vichy ».  En tout cas, elle a son rond de serviette au Palais et s’y goinfre au cours de ces années sombres pendant lesquelles les Monégasques ont faim !</p>
+                <button onclick="openModal(42)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(41)"><h2>Police : départ de Jean-François Mirigay ?</h2>
+                <img src="img/jf-mirigay.webp" alt="Jean-François Mirigay"></button>
+                <p class="preview">D’après le compte Facebook d’un de nos amis monégasques toujours très bien informé, il semblerait, qu’après moult allers-retours et tergiversations, que le départ de JF Mirigay, en poste à Monaco depuis 2020, soit désormais acquis. Bien que très professionnel, apprécié et toujours remarquablement courtois, le responsable de la Police Judiciaire de la Principauté avait l’inconvénient de déplaire à Flip !</p>
+                <button onclick="openModal(41)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
                 <button class="first" onclick="openModal(40)"><h2>Un mois de prison ferme pour le vol d’un sac à main. Quid de la lutte contre la corruption ?</h2>
                 <img src="img/prison.webp" alt="Un mois de prison ferme"></button>
                 <p class="preview">En condamnant pour vol bien au-delà des réquisitions un Roumain de 31 ans résidant en Italie dans le cadre d’une comparution immédiate, les juges du tribunal correctionnel de Monaco ont affiché lundi 20 Janvier le message d’une justice ferme. Bravo !</p>
@@ -1100,6 +1124,45 @@
                 Mais cela devrait aussi s’appliquer aux puissants et à la corruption. Là, on reste sur sa faim.<br><br>
                 On ne peut que souhaiter que la machine étatique et judiciaire engage une répression sans faille et sans complaisance dans le domaine de la lutte contre la corruption, devenue apparemment un véritable sport national à Monaco, surtout dans l’immobilier. Le niveau de trafic d’influence aurait atteint ces derniers temps une dimension sans précédent.</p>
                 <img src="img/prison.webp" alt="Un mois de prison ferme">
+                `
+            },
+            {
+                id: 'jean-francois-mirigay',
+                title: 'Police : départ de Jean-François Mirigay ?',
+                content: `
+                <p>D’après le compte Facebook d’un de nos amis monégasques toujours très bien informé, il semblerait, qu’après moult allers-retours et tergiversations, que le départ de JF Mirigay, en poste à Monaco depuis 2020, soit désormais acquis. Bien que très professionnel, apprécié et toujours remarquablement courtois, le responsable de la Police Judiciaire de la Principauté avait l’inconvénient de déplaire à Flip !<br><br>
+                Apparemment, le nouveau Directeur de la Sécurité Publique, Eric Arella, n’a pas en mesure de lui permettre de poursuive sa mission. Clairement, l’instruction viendrait des deux Daltons du Palais.<br><br>
+                Aujourd’hui âgé de 54 ans, le futur ex-responsable de la police judiciaire de la Principauté, Jean-François Mirigay, était précédemment à Nice où il occupait un poste de directeur départemental depuis janvier 2016. Il avait occupé ses mêmes fonctions à Toulon entre 2012 et 2016. Diplômé de l’Institut d’études politiques de Bordeaux, titulaire d’un DEA de sciences-politiques et d’une maîtrise de droit public, Jean-François Mirigay, a commencé sa carrière à Lyon avant d’être nommé chef de la brigade de recherches et d’intervention de Bayonne puis attaché près l’ambassade de France à Sofia en Bulgarie.</p>
+                <img src="img/jf-mirigay.webp" alt="Jean-François Mirigay">
+                `
+            },
+            {
+                id: 'petain-au-palais-princier',
+                title: 'Quand l’épouse du Maréchal Pétain festoyait au Palais princier',
+                content: `
+                <p>Annie Pétain, épouse de Philippe Pétain, Maréchal de France et Chef de l’Etat français de 1940 à 1944, a souvent déjeuné et dîné au Palais princier d’Octobre 1940 jusqu’en 1944. Pour l'historien Jean-Yves Le Naour, Mme Annie Pétain est « une vieille femme acariâtre et prétentieuse qui a pris des habitudes de grandeur au bon temps de Vichy ».  En tout cas, elle a son rond de serviette au Palais et s’y goinfre au cours de ces années sombres pendant lesquelles les Monégasques ont faim !<br><br>
+                Faut dire que le Prince Louis II semblait très favorable aux Allemands, malgré ses états de service pendant la première guerre mondiale. Né le 12 juillet 1870 à Baden-Baden et éduqué en Autriche, parlant couramment la langue allemande, le monarque était un fidèle soutien du Maréchal Pétain au profit duquel il a multiplié des dons financiers très généreux entre 1940 et Juillet 1944.<br><br>
+                L'entrée en guerre de l’Italie inquiète le Prince Louis II. Il craint une annexion et une destitution. D’où le rapprochement avec le gouvernement de Vichy pour neutraliser Rome. C'est à Pierre Laval et au Maréchal Pétain — dont il a embauché l'ancien aide de camp — qu'il demande assistance. Le Prince fait aussi passer de son propre chef, sans contrainte ni de l'Allemagne nazie ni du régime pétainiste, des lois antisémites visant au recensement des juifs et à l'organisation de rafles. Cela n’empêchera pas l’occupation de Monaco par les Italiens en novembre 1942, puis par les Allemands en septembre 1943. <br><br>
+                Vis-à-vis de l'Allemagne nazie, la Principauté de Monaco exercera ce qui sera nommé plus tard une « étrange neutralité ». Des liens financiers avec les nazis existaient depuis 1936, quand le ministre des Finances allemand Schacht avait rendu visite au Prince pour mettre en place un montage financier à partir de banques allemandes. L'intérêt à avoir des liens financiers était mutuel : la prospérité et l'indépendance de la Principauté en profitaient. Le Reich diversifiait ses interfaces de financement. Par la Suisse et par Monaco, l’Allemagne nazie a réussi à contourner les embargos imposés par les Alliés. Le 25 juin 1943, Louis II offre un banquet au Consul d'Allemagne ; il nomme le docteur Bernhard Bodenstein, un membre du parti nazi, Consul de Monaco à Berlin. Louis II, bien qu’il ait l’air d'un prince à l'ancienne, était en fait un pro de la collab’ discrète. Faut dire qu’avec le Ministre d’Etat, Emile Roblot, et l’affairiste pro-nazi Mandel Szkolnikoff, Monaco est devenue un super terrain de jeu des nazis. Radio Monte-Carlo (RMC) est lancée le 1er juillet 1943 « au service de l'Europe nouvelle » sous le contrôle du ministère des affaires étrangères allemand. L'Allemagne nazie en fait sa deuxième station de radio de propagande après Radio Paris.<br><br>
+                Quant au financier véreux Szkolnikoff qui a fait une fortune rapide et colossale en commerçant avec l'armée allemande et la SS, il va acquérir 7 hôtels à Monaco, plusieurs immeubles et villas, devenant le premier propriétaire foncier de la Principauté. Il mènera également une grande partie de ses activités et trafics en France au travers de sociétés monégasques.<br><br>
+                A la libération, la Résistance suggère que la France annexe la Principauté mais Charles de Gaulle refuse. Grâce à une négociation de Louis II avec Paris, le 28 septembre 1944, le Prince héréditaire Rainier s’engage dans l’armée française au 7e régiment de tirailleurs algériens des troupes d’Afrique française et prend part à la campagne d’Alsace. Il est décoré de la Croix de guerre 1939-1945 et de la Bronze Star américaine. En 1947, il est nommé chevalier de la Légion d'honneur à titre militaire. En intégrant l'armée française en 1944, le futur prince souverain Rainier III a donc sauvé l’honneur et évité à la famille Grimaldi une accusation de collaboration avec les nazis. <br><br>
+                Le 27 août 2015, le prince Albert II de Monaco a inauguré une stèle au cimetière de Monaco, en mémoire des quarante-trois juifs étrangers qui ont été raflés par l'occupant allemand dans les hôtels monégasques, pendant la nuit du 27 au 28 août 1942. Sympa, mais un peu tard, non ?</p>
+                <img src="img/petain.webp" alt="L’épouse du Maréchal Pétain au Palais princier">
+                `
+            },
+            {
+                id: 'un-nouveau-feuilleton',
+                title: 'Un nouveau feuilleton : qui va bien pouvoir remplacer Didier Guillaume ?',
+                content: `
+                <p>La disparition brutale de Didier Guillaume a été un traumatisme pour Monaco. D'abord parce que c'était un type plutôt sympa, humain et politique, dans le bon sens du terme, et ensuite parce qu'il avait l'air de savoir ce qui se tramait dans les coulisses de la Principauté. <br><br>
+                Si beaucoup ont pleuré sa disparition, à commencer par le Prince, Flip et Flop, qui avaient fait campagne contre son arrivée, ont eu une réaction très différente. Dans certains cercles financiers bien en place, on parlait même de « divine surprise ». C'est dire.<br><br>
+                Quoiqu’il en soit, Paris et Monaco travaillent actuellement pour lui trouver un remplaçant. Plusieurs noms reviendraient en boucle.<br><br>
+                Frédéric Genta, qui vient de poser sa démission, est une option. C’est le genre de gars qui a l'air de tout comprendre sans même avoir besoin de demander. C'est pas le premier venu : intelligent, cultivé, avec un CV en béton et un parcours dans des multinationales avant de revenir à Monaco. Passionné par l'innovation et la créativité, il n’est pas collé avec un clan particulier. Son arrivée, ce serait comme un petit vent de fraîcheur, un coup de balai dans ce vieux système des caciques où tout le monde se connaît depuis des lunes. Une bonne secousse pour remettre un peu d'ordre, pourquoi pas. Ça pourrait plaire ?<br><br>
+                Stéphane Valeri coche a priori toutes les cases, en dépit de son profil d’homme du sérail et de politicien madré. L’actuel Président de la SBM a réveillé la belle endormie. Il a été un président très apprécié du Conseil National qui a pris une nouvelle dimension sous son égide. Ancien Ministre des Affaires Sociales et de la Santé, il très populaire chez nous comme l’ont montré ses victoires à répétition aux élections. Intègre et intelligent, il possède un vrai sens politique et sait parfaitement gérer les crises difficiles comme les tempêtes. Tout le monde sait qu’il rêverait d’être le premier Monégasque à devenir Ministre d’Etat, même s’il s’éclate aujourd’hui à la SBM où il semble avoir envie de rester. Il a donc parfaitement le profil du job. Pourquoi pas  lui ? En tout cas son nom circule avec insistance chez les Monégasques qui, eux, seraient plutôt ravis. Logique, non ?<br><br>
+                Claude Palmero, lui, fait office d’outsider. Ce type lutte sans relâche contre la corruption qui est notre big problème, il a une vision d’une Principauté modèle et des idées bien intéressantes, comme la création d’une société publique de promotion pour se sortir de l’emprise des promoteurs privés avides et boulimiques. Son intégrité sans compromis et son approche sérieuse en font un candidat solide. Si jamais il est nommé, les milieux financiers seraient plutôt contents, et ça pourrait permettre au Prince de remettre sur les rails sa vision de l’avènement. Après tout, si S.A.S. et lui arrivaient à oublier leurs petites querelles ridicules et si l’ancien grand argentier oubliait sa promesse de ne pas faire de politique, ça aurait de l’allure. Mais bon, on peut toujours rêver, hein ? <br><br>
+                Serge Telle pourrait reprendre du service… L’ancien ministre d’Etat, actuellement basé à Londres, a passé du bon temps en Principauté puisqu’il y avait défrayé la chronique dans bien des domaines et dans des coups fourrés ! Très proche de notre champion national de l’immobilier, diplomate chevronné, beau parleur ayant gardé des contacts en France, sa nomination aurait l’avantage de la cohérence puisque notre pieuvre tire presque toutes les ficelles. Avec lui, l’alignement des planètes serait alors à son apogée. Monaco deviendrait alors un État-Pastor à gouvernance ultra-fluide. Plus d’hésitations, tout serait encore plus limpide… et encore plus sombre, en même temps.<br><br>
+                Le pire pour Monaco serait d’hériter à nouveau d’un préfet français en fin de carrière qui viendrait pantoufler chez nous. Le souvenir de Dartout hante les mémoires. En revanche, la brève mandature de Didier Guillaume a montré qu’un fin politique intègre pouvait prendre des décision courageuses et faire reculer la face sombre de notre belle Principauté.</p>
+                <img src="img/nouveau-feuilleton.webp" alt="Un nouveau feuilleton">
                 `
             }
         ];
