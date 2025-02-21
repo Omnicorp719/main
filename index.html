@@ -217,6 +217,22 @@
 
 
             <div class="article">
+                <button class="first" onclick="openModal(71)"><h2>Monaco capitale mondiale du sport ?</h2>
+                <img src="img/monaco-capitale-sport.webp" alt="Monaco capitale mondiale du sport"></button>
+                <p class="preview">Lors d’une de ces éternelles cérémonies officielles au Palais princier, le Prince Albert a signé la plaque commémorative des "capitales mondiales du sport" attribuée cette année à Monaco (après Sofia l’an dernier). C’est le genre de truc qui fait dire qu’il y a toujours une plaque à poser quelque part. Mais vu que Monaco était la seule candidate pour 2025, c’est un peu comme se donner un prix parce qu’on est le seul à s’être inscrit, non ?</p>
+                <button onclick="openModal(71)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(70)"><h2>3 743 logements domaniaux</h2>
+                <img src="img/3743-logements.webp" alt="3 743 logements domaniaux à Monaco"></button>
+                <p class="preview">Il y a actuellement 3743 logements domaniaux recensés à Monaco, souligne Monaco Matin dans sa dernière édition, sachant que 9 179 Monégasques vivent en Principauté. En 2023, l’IMSEE avait estimé que "le nombre de logements domaniaux nécessaires d’ici 2040 serait compris entre 4 377 et 5 266, pour loger entre 65% et 80% de la population monégasque".</p>
+                <button onclick="openModal(70)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
                 <button class="first" onclick="openModal(69)"><h2>Etat d’absurdie à Monaco : le « pseudo-audit » d’Alvarez & Marsal</h2>
                 <img src="img/absurdie-monaco.webp" alt="Etat d’absurdie à Monaco"></button>
                 <p class="preview">Ah, Monaco… ce petit coin où tout est possible, surtout quand il s'agit de transformer un audit en un cirque absurde. Ce n’est plus une analyse, mais une mise en scène, un spectacle où la vérité n’a aucune place. L'audit, normalement, c'est censé être un truc sérieux, fait pour poser les faits sur la table de manière objective, équilibrée, sans flirter avec les partis pris. Mais quand c'est un « audit » commandité pour faire plaisir à certains et détruire d'autres, ça devient juste une blague. Pas un audit, mais une grosse farce pour travestir la vérité.</p>
@@ -1736,6 +1752,28 @@
                 Pour les experts juridiques, ce prétendu audit d’Alvarez & Marsal, qui a servi de base aux plaintes du Palais contre l’ex-grand argentier, souffre de plusieurs tares originelles : il n’a pas fait l’objet de contradictoire et ses résultats n’ont jamais été portés à la connaissance des personnalités visées. Bref, un néo-audit « fait sur mesure », un peu comme un costume taillé pour faire la peau à Palmero et à d’autres gars du coin, et surtout pour justifier une « vendetta judiciaire ». L’Etat de droit est en marche, applaudissons !<br><br>
                 Si ça continue, la Cour Européenne des Droits de l’Homme va vraiment finir par mettre son nez dans nos histoires. D’autant plus que Monaco exercera la présidence du comité des ministres du Conseil de l’Europe pendant six mois, à partir de mai 2026. Pendant ces six mois, notre Principauté entend mettre en avant des engagements qu’elle partage avec le Conseil de l’Europe, notamment la promotion de … l’éthique. A mourir de rire !</p>
                 <img src="img/absurdie-monaco.webp" alt="Etat d’absurdie à Monaco">
+                `
+            },
+            {
+                id: '3743-logements-domaniaux',
+                title: '3 743 logements domaniaux',
+                content: `
+                <p>Il y a actuellement 3743 logements domaniaux recensés à Monaco, souligne Monaco Matin dans sa dernière édition, sachant que 9 179 Monégasques vivent en Principauté. En 2023, l’IMSEE avait estimé que "le nombre de logements domaniaux nécessaires d’ici 2040 serait compris entre 4 377 et 5 266, pour loger entre 65% et 80% de la population monégasque".<br><br>
+                Depuis 2019 et la mise en place du premier plan national pour le logement, plus de 600 appartements domaniaux ont été construits, signale le quotidien régional qui rappelle que, en septembre puis en décembre devant les élus du Conseil National, le regretté Ministre d’État Didier Guillaume avait annoncé le lancement du deuxième volet du plan national pour le logement (PNL), qu’il voulait "plus pragmatique et efficace".<br><br>
+                Tout ceci, c’est très bien. Mais pourquoi Mareterra (124 résidences de grand luxe) n’a pas de logements domaniaux, alors que Testimonio II, qui vient aussi d’être inauguré, a apporté à notre Principauté 378 appartements pour les Monégasques ?<br><br>
+                Poser la question, c’est apporter la réponse. Mareterra est surtout une aubaine financière, qui a permis d’enrichir encore davantage ses actionnaires privés , notamment “l'actionnaire majoritaire relatif” Patrice Pastor avec 26% du capital. Les autres bénéficiaires sont Jean-Baptiste Pastor, les neveux du Prince Albert, la famille Lopez de la Osa, le fonds d'investissement britannique Meyer Bergman, aujourd'hui Mark Capital Management, Bulat Utemuratov, homme d'affaires kazakh à la réputation sulfureuse, la société luxembourgeoise Nogra Real Estate (contrôlée par les frères Gianmaria et Mario Germano Giuliani, héritiers de l'entreprise pharmaceutique italienne connue pour l'historique Amaro medicinale Giuliani), et l'investisseur belge Stéphane Robert.</p>
+                <img src="img/3743-logements.webp" alt="3 743 logements domaniaux à Monaco">
+                `
+            },
+            {
+                id: 'monaco-capitale-mondiale-du-sport',
+                title: 'Monaco capitale mondiale du sport ?',
+                content: `
+                <p>Lors d’une de ces éternelles cérémonies officielles au Palais princier, le Prince Albert a signé la plaque commémorative des "capitales mondiales du sport" attribuée cette année à Monaco (après Sofia l’an dernier). C’est le genre de truc qui fait dire qu’il y a toujours une plaque à poser quelque part. Mais vu que Monaco était la seule candidate pour 2025, c’est un peu comme se donner un prix parce qu’on est le seul à s’être inscrit, non ?<br><br> 
+                Quoiqu’il en soit, la politique monégasque pour le sport a eu droit à son moment de gloire mérité, car ce label « capitale mondiale du sport » souligne aussi la qualité de nos infrastructures et l’implication des autorités dans l’accueil de compétitions internationales, comme le Grand Prix de Formule 1, le meeting international de natation ou encore le Rolex Monte-Carlo Masters. Eh ouais, là, c’est top, faut bien l’avouer, mais bon, ça reste des événements où l’argent coule à flots.<br><br>
+                "Le sport tient un rôle éducatif majeur au sein de la société dans l’échange, le respect de l’autre, l’épanouissement et au-delà apporte sa contribution pour favoriser la paix entre les populations. Nous avons à cœur de faire perdurer une vision basée sur une politique volontariste de réalisation d’équipements modernes pour la pratique du sport scolaire et en club", a déclaré le Prince Albert dont l’engagement en faveur du sport depuis toujours est partie intégrante de sa marque de fabrique.<br><br>
+                Mais attendez… Monaco, capitale sportive ? C’est un peu l’ironique twist de l’histoire, quand on pense aussi aux disciplines sportives… disons, un peu plus louches, du côté des magouilles, de la corruption, des arrangements entre amis et du business immobilier bien juteux. Peut-être que des plaques commémoratives pour tout ça sont en préparation aussi… On attend avec impatience !</p>
+                <img src="img/monaco-capitale-sport.webp" alt="Monaco capitale mondiale du sport">
                 `
             }
         ];
