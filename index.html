@@ -217,6 +217,22 @@
 
 
             <div class="article">
+                <button class="first" onclick="openModal(107)"><h2>Le pays des renards argentés</h2>
+                <img src="img/renards.webp" alt="Le pays des renards argentés"></button>
+                <p class="preview"><p>Ah, Monaco, notre petit paradis où l’espérance de vie est un véritable concours de longévité ! On pourrait presque croire que les Monégasques trouvent de la Jouvence dans leurs fontaines de chocolat, comme le révèle le dernier rapport de l’IMSEE sur la démographie des Monégasques pour l’année 2024.</p>
+                <button onclick="openModal(107)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(106)"><h2>L’Amadea : un yacht à 225M€ pour l’Ukraine</h2>
+                <img src="img/amadea.webp" alt="L’Amadea : un yacht à 225M€ pour l’Ukraine"></button>
+                <p class="preview"><p>Oh, regardez-moi ce bijou flottant, l’Amadea, un méga yacht à 225 millions d’euros qui sent bon l’oligarque russe et les magouilles bien grasses ! Saisi par les cow-boys du FBI en mai 2022 alors qu’il se la coulait douce aux Fidji – parce que oui, même les yachts ont droit à des vacances –, ce palace nautique de 107 mètres pourrait bien devenir le premier « avoir russe » vendu pour financer les copains ukrainiens. Merci qui ? Merci Dale Ho, le juge new-yorkais qui a tranché la semaine dernière, mettant fin au grand cirque des « mais non, c’est pas à moi ».</p>
+                <button onclick="openModal(106)">Lire plus</button>
+            </div>
+
+
+            <div class="article">
                 <button class="first" onclick="openModal(105)"><h2>Dispositif de correspondance, d’alerte et de signalement</h2>
                 <img src="img/alertes.webp" alt="Dispositif de correspondance, d’alerte et de signalement"></button>
                 <p class="preview"><p>Vous avez été nombreux à nous contacter dès la mise en service de notre adresse email cactusdemonaco@proton.me et nous vous en remercions.<br>
@@ -2469,8 +2485,32 @@
                 <p>Vous avez été nombreux à nous contacter dès la mise en service de notre adresse email cactusdemonaco@proton.me et nous vous en remercions.<br><br>
                 N’hésitez pas à nous signaler des magouilles en matière de corruption à Monaco et à partager des infos relatives à la possible complaisance voire bienveillance de certaines autorités dans ce domaine.<br><br>
                 Votre anonymat sera scrupuleusement respecté. En revanche nos journalistes et enquêteurs vérifieront discrètement ce que vous porterez à notre connaissance.<br><br>
-                La tiédeur de la lutte contre la corruption est une tâche pour notre Principauté. Grâce à la vigilance et à la clairvoyance citoyennes de vous tous, Monaco retrouvera progressivement ses couleurs, sa fraîcheur et un supplément d’âme.</p>
+                La tiédeur de la lutte contre la corruption est une tache pour notre Principauté. Grâce à la vigilance et à la clairvoyance citoyennes de vous tous, Monaco retrouvera progressivement ses couleurs, sa fraîcheur et un supplément d’âme.</p>
                 <img src="img/alertes.webp" alt="Dispositif de correspondance, d’alerte et de signalement">
+                `
+            },
+            {
+                id: 'l-amadea-un-yacht-a-225m-pour-l-ukraine',
+                title: 'L’Amadea : un yacht à 225M€ pour l’Ukraine',
+                content: `
+                <p>Oh, regardez-moi ce bijou flottant, l’Amadea, un méga yacht à 225 millions d’euros qui sent bon l’oligarque russe et les magouilles bien grasses ! Saisi par les cow-boys du FBI en mai 2022 alors qu’il se la coulait douce aux Fidji – parce que oui, même les yachts ont droit à des vacances –, ce palace nautique de 107 mètres pourrait bien devenir le premier « avoir russe » vendu pour financer les copains ukrainiens. Merci qui ? Merci Dale Ho, le juge new-yorkais qui a tranché la semaine dernière, mettant fin au grand cirque des « mais non, c’est pas à moi ».<br><br>
+                Et devinez qui se retrouve dans le viseur de cette enquête à la sauce Hollywood ? Un designer niçois – probablement en train de siroter un pastis en pleurant ses rêves de gloire – et un broker monégasque, parce qu’à Monaco, on sait bien brasser du fric parfois "louche" avec un sourire en coin. Les deux compères ont dû se dire que refourguer un yacht à un oligarque sous sanctions, c’était une idée de génie. Spoiler : le FBI n’a pas trouvé ça très drôle.<br><br>
+                Le prétendu proprio, un certain Suleyman Kerimov, sénateur russe au CV aussi propre qu’une nappe après un banquet arrosé, jure ses grands dieux que ce bateau n’est pas à lui. Étonnant, non ? Le même Kerimov qui, il y a quelques années, jouait déjà les vierges effarouchées quand la justice niçoise lui collait quatre villas de luxe au Cap d’Antibes sur le dos. À ce stade, on se demande s’il ne dort pas avec un panneau « Je suis innocent » sur son lit king-size.<br><br>
+                Pendant ce temps, à Monaco, on regarde l’affaire de loin, en polissant les yachts du port Hercule et en priant pour que personne ne vienne fouiller dans les tiroirs des sociétés offshore. L’Amadea aux enchères pour l’Ukraine ? Une belle histoire pour les journaux, mais ici, on sait bien que l’argent finit toujours par couler là où les palmiers poussent et les impôts s’évaporent. Allez, prochaine escale : un audit bidon pour calmer les curieux, et on passe à autre chose. C’est ça, la dolce vita !</p>
+                <img src="img/amadea.webp" alt="L’Amadea : un yacht à 225M€ pour l’Ukraine">
+                `
+            },
+            {
+                id: 'le-pays-des-renards-argentes',
+                title: 'Le pays des renards argentés',
+                content: `
+                <p>Ah, Monaco, notre petit paradis où l’espérance de vie est un véritable concours de longévité ! On pourrait presque croire que les Monégasques trouvent de la Jouvence dans leurs fontaines de chocolat, comme le révèle le dernier rapport de l’IMSEE sur la démographie des Monégasques pour l’année 2024. <br><br>
+                Avec une espérance de vie de 87 ans, Monaco détrône tout le monde, même le Japon et Hong Kong, qui, apparemment, ne savent pas comment faire vieillir leurs habitants aussi bien que sur la Côte d'Azur. Et tout ça, bien sûr, grâce à un climat idéal et un accès infini à des soins médicaux... mais surtout à un style de vie sûrement si épanouissant qu'on oublie de mourir.<br><br>
+                Mais, oh surprise, la mortalité grimpe légèrement, avec un taux de mortalité avoisinant les 8,2% en 2024, contre 7,3% en 2023. Si on veut faire un peu de relativisme, ça n’est pas si mal comparé à la moyenne européenne (11%), où les gens semblent beaucoup moins adeptes de l'éternité. Vivement que les statistiques montrent que les Monégasques vont bientôt atteindre l'immortalité, à ce rythme-là.<br><br>
+                Quant aux naissances, eh bien, il semblerait que les futurs Monégasques ne soient pas aussi nombreux à faire leur entrée en scène. 98 petits Monégasques, contre 104 l'année précédente… à croire que le nombre de places dans les hôtels de luxe est trop limité pour les accueillir Et les mariages, là aussi, ça baisse. Seulement 55 unions célébrées, un chiffre qui semble tout droit sorti d’une époque révolue, comme si les Monégasques avaient décidé de faire une pause dans leur quête pour sauver la population locale.<br><br>
+                Pour les divorces, on attend encore un peu de savoir si 2024 va battre un record de stabilité, mais il y a fort à parier qu’avec tous ces chiffres, on pourra bientôt ouvrir une école de gestion du mariage et de la rupture.<br><br>
+                Bref, la Principauté continue d'être un modèle de longévité, mais sans oublier de rappeler qu'il y a aussi des statistiques qui flirtent avec la nostalgie d'une époque où les choses étaient… un peu plus dynamiques.</p>
+                <img src="img/renards.webp" alt="Le pays des renards argentés">
                 `
             }
         ];
