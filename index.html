@@ -23,15 +23,15 @@
                 const article = articles[index - 1];
                 const doc = new jsPDF();
 
-                doc.setFontSize(20);
+                doc.setFontSize(16);
                 doc.setFont(undefined, 'bold');
                 const splitTitle = doc.splitTextToSize(article.title, 170);
                 doc.text(splitTitle, 20, 20);
                 
-                const titleHeight = splitTitle.length * 12;
+                const titleHeight = splitTitle.length * 10;
                 const contentStartY = 20 + titleHeight + 10;
                 
-                doc.setFontSize(12);
+                doc.setFontSize(10);
                 doc.setFont(undefined, 'normal');
                 const content = article.content.replace(/<[^>]*>/g, ' ').trim();
                 const splitText = doc.splitTextToSize(content, 170);
@@ -42,7 +42,7 @@
                 img.onload = function() {
                     const imgWidth = 170;
                     const imgHeight = (img.height * imgWidth) / img.width;
-                    const textHeight = calculateTextHeight(doc, splitText, 12);
+                    const textHeight = calculateTextHeight(doc, splitText, 10);
                     const imgY = contentStartY + textHeight + 50;
                     
                     if (imgY + imgHeight > doc.internal.pageSize.height) {
