@@ -288,6 +288,17 @@
 
 
             <div class="article">
+                <button class="first" onclick="openModal(180)"><h2>Le Grand Prix de Monaco bat des records de lenteur et touche le fond</h2>
+                <img src="https://cactusdemonaco.com/img/f1-monaco.webp" alt="Le Grand Prix de Monaco bat des records de lenteur et touche le fond"></button>
+                <p class="preview">Notre Grand Prix F1 a touché le fond dimanche dernier. On ne sait plus quoi inventer pour redonner de l’intérêt à une course qui est la plus lente du circuit et qui rend impossibles les dépassements. Terrible pour ce qui est censé être une course de vitesse entre les pilotes et leurs machines.</p>
+                <div class="button-group">
+                    <button onclick="openModal(180)">Lire plus</button>
+                    <button onclick="downloadPDF(180)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
                 <button class="first" onclick="openModal(179)"><h2>Audit en cours chez TV Monaco</h2>
                 <img src="https://cactusdemonaco.com/img/tv5monde.webp" alt="Audit en cours chez TV Monaco"></button>
                 <p class="preview">Notre chaîne publique qui coûte une fortune et n’a toujours pas trouvé son audience serait l’objet d’un audit depuis quelques jours.</p>
@@ -4605,7 +4616,7 @@
                 `
             },
             {
-                id: 'audit-en-cours-chez-tv-onaco',
+                id: 'audit-en-cours-chez-tv-monaco',
                 title: 'Audit en cours chez TV Monaco',
                 content: `
                 <p>Notre chaîne publique qui coûte une fortune et n’a toujours pas trouvé son audience serait l’objet d’un audit depuis quelques jours.<br><br>
@@ -4613,6 +4624,24 @@
                 Le joker de TF1, Jacques Legros, qui était consultant depuis les tous débuts, aurait été sèchement évincé par Flip il y a quelques semaines.<br><br>
                 Didier Guillaume, dont tout le monde avait salué la vision et les premiers pas comme Ministre d’Etat, avait décidé en décembre 2024 de mettre un terme à l’aventure budgétivore et de se retirer de TV5 Monde afin d’opérer une fusion entre cette pompe à finances et la chaîne Monaco Info. Depuis ça flotte.</p>
                 <img src="https://cactusdemonaco.com/img/tv5monde.webp" alt="Audit en cours chez TV Monaco">
+                `
+            },
+            {
+                id: 'le-grand-prix-de-monaco-touche-le-fond',
+                title: 'Le Grand Prix de Monaco bat des records de lenteur et touche le fond',
+                content: `
+                <p>Notre Grand Prix F1 a touché le fond dimanche dernier. On ne sait plus quoi inventer pour redonner de l’intérêt à une course qui est la plus lente du circuit et qui rend impossibles les dépassements. Terrible pour ce qui est censé être une course de vitesse entre les pilotes et leurs machines. L’obligation d’effectuer deux arrêts aux stands a finalement aggravé cet état de choses. "Une course vraiment horrible, désolé pour ceux qui ont dû regarder ça". Alexander Albon (Williams) a résumé de la meilleure des manières le sentiment général, une fois n'est pas coutume, partagé par les pilotes et les observateurs, après cette édition du Grand Prix de Monaco, souvent disputé sur un rythme de sénateurs, écrit notamment Eurosport.<br><br>
+                Parfaitement placée après la qualification, Racing Bulls, bientôt imitée par Williams, a mis en place une stratégie rare et décriée sitôt la ligne d'arrivée franchie. Avec Isack Hadjar sur la cinquième position de la grille et Liam Lawson à la neuvième, la petite sœur de Red Bull a vite compris ce qu'elle devait faire : demander à son premier pilote de rouler le plus vite possible et à son deuxième de… ralentir le plus possible. Le but ? Éloigner Hadjar du peloton alors que de nombreux pilotes, dont les Mercedes qui s'étaient ratées en qualifications, klaxonnaient sévèrement derrière Lawson qui roulaient trois à quatre secondes plus lentement qu'à l'habitude. <br><br>
+                A la clé, un puis deux arrêts gratuits pour le Français qui n'a perdu aucune position dans les stands. Or à Monaco, la position en piste vaut bien plus que le rythme théorique de votre voiture. Toujours plus larges, les F1 ne sont plus adaptées au tracé princier et les dépassements y sont impossibles, ce que la course de ce dimanche a montré jusqu'à l'absurde. <br><br>
+                Liam Lawson, et plus tard Carlos Sainz et Alexander Albon, ont été invités par leurs équipes respectives à rouler trois ou quatre secondes en-deçà du potentiel de leur monoplace. Ce qu'ils ont fait sans pour autant être inquiétés par la voiture qui les suivait. <br><br>
+                "C'était très ennuyeux. Quand vous pilotez une F1 à 3 ou 4 secondes du rythme…, avouait Carlos Sainz après la course. Je n'aime pas la manière dont ça s'est passé, je n'aime pas le faire, ni qu'on me le fasse. Ça ne devrait pas être autorisé". Ce constat était partagé par tous les pilotes passés devant les micros, même ceux qui ont bénéficié de cette stratégie comme Esteban Ocon. Le pilote Haas était dans la fenêtre d'Hadjar et il doit aussi beaucoup à Racing Bulls ce dimanche. <br><br>
+                "Je pense que ces choses-là ne devraient pas être autorisées, confirmait le pilote Haas au micro de Canal +. Ça ruine un peu la course et le bel aspect de Monaco. Je me suis retrouvé derrière des voitures qui étaient 3 ou 4 secondes plus lentes que ce qu'elles devraient être. Ça simplifie la course d'une des voitures de son équipe mais ce n'est pas hyper professionnel." Alors qu'elle devait animer une course déjà morne, l'obligation de faire deux arrêts a produit l'effet inverse, ce qui a fait dire à Toto Wolff, patron d'une écurie Mercedes victime de ces coups tactiques, que la course fut "pire" que celle de l'année dernière, déjà très critiquée. <br><br>
+                "J'aurais pu apporter un oreiller et boire un café dans la voiture, souriait Albon de son côté. De manière assez bizarre, c'était aussi très difficile de rester concentré en roulant si doucement. Je n'aime pas ça, je ne pense pas que Carlos aime ça. Ce n'est pas vraiment comme ça que nous voulons courir.  Ce n'est pas beau". Ce dimanche, la Formule 1 fut à l'opposé de ce qu'elle devrait être, à savoir une course de vitesse. La gestion et l'adaptation vont évidemment avec la F1 de 2025 mais à Monaco, des limites ont été franchies, considère Eurosport.<br><br>
+                Coté blingbling, cette édition a fait le plein. Stars, célébrités, multimilliardaires, models, escorts, tout le ban et l’arrière-ban des paillettes était au rendez-vous. Le fric dégoulinait partout. Mais derrière une organisation impeccable et une belle vitrine show-off, notre Grand Prix fut un désastre au plan sportif. Un peu à l’image de la Principauté aujourd’hui.<br><br>
+                A l’avenir, les passionnés vont finir par perdre patience. Pas sûr que notre Grand-Prix reste indéfiniment au calendrier. Il faudrait que la Principauté ait le courage, l’audace et l’intelligence de concevoir un Grand prix entièrement nouveau, pourquoi pas sur la base d’un circuit « exemplaire » à quelques encablures de notre Principauté. Mais en est-on seulement capables ? <br><br>
+                Le spectacle doit aussi être sur la piste. Sinon, cela restera une mortelle procession entourée par les yachts clinquants et un beau linge qui chez nous n’a pas de freins.<br><br>
+                Rien à voir non plus avec le discours environnemental du Prince, sauf en ce qui concerne la course très réussie de Formule E.</p>
+                <img src="https://cactusdemonaco.com/img/f1-monaco.webp" alt="Le Grand Prix de Monaco bat des records de lenteur et touche le fond">
                 `
             }
         ];
