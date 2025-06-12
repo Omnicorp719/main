@@ -289,6 +289,28 @@
 
 
             <div class="article">
+                <button class="first" onclick="openModal(201)"><h2>Cactus : une formidable expo à ne pas manquer</h2>
+                <img src="https://cactusdemonaco.com/img/expo-cactus.webp" alt="Cactus : une formidable expo à ne pas manquer"></button>
+                <p class="preview">Le Nouveau Musée National de Monaco, en collaboration avec le musée Yves Saint Laurent Marrakech, consacre au Cactus une exposition exceptionnel sous le double angle botanique et artistique. Elle sera ouverte du 6 Juillet au 11 Janvier 2026 à la Villa Sauber.</p>
+                <div class="button-group">
+                    <button onclick="openModal(201)">Lire plus</button>
+                    <button onclick="downloadPDF(201)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(200)"><h2>Là où il y a Diogène, il y a du plaisir</h2>
+                <img src="https://cactusdemonaco.com/img/verite.webp" alt="Là où il y a Diogène, il y a du plaisir"></button>
+                <p class="preview">Il y a une décennie, Charlotte Casiraghi, Robert Maggiori et Raphael Zagury-Orly ont créé les Rencontres philosophiques de Monaco. Pour être précis, ils "se sont donné la tâche de créer une 'communauté' où la parole et la pensée des philosophes circulent librement entre tous, et éclairent, ne serait-ce que d’un faible rayon, les problèmes que le temps présent rend de plus en plus complexes".</p>
+                <div class="button-group">
+                    <button onclick="openModal(200)">Lire plus</button>
+                    <button onclick="downloadPDF(200)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
                 <button class="first" onclick="openModal(199)"><h2>Dernière promo de nos Cactus d’Or</h2>
                 <img src="https://cactusdemonaco.com/img/cactus-or.webp" alt="Dernière promo de nos Cactus d’Or"></button>
                 <p class="preview">La rédaction vient de rendre publique sa promotion de cactus d’or...</p>
@@ -5088,6 +5110,34 @@
                 <li>Même distinction pour Thomas Brezzo qui, au fil du temps, prend progressivement la dimension d’un homme d’Etat. Sa présidence de la seule institution démocratique de Monaco est appréciée par nos compatriotes. Il a le don de secouer le cocotier et de dénoncer les dysfonctionnements de notre écosystème, notamment la panne des grands projets d’aménagement. Il a eu la lucidité et le courage de dire que « plus rien ne se passe » depuis la disparition du regretté Didier Guillaume.</li>
                 </ul></p>
                 <img src="https://cactusdemonaco.com/img/cactus-or.webp" alt="Dernière promo de nos Cactus d’Or">
+                `
+            },
+            {
+                id: 'la-ou-il-y-a-diogene-il-y-a-du-plaisir',
+                title: 'Là où il y a Diogène, il y a du plaisir',
+                content: `
+                <p>Il y a une décennie, Charlotte Casiraghi, Robert Maggiori et Raphael Zagury-Orly ont créé les Rencontres philosophiques de Monaco. Pour être précis, ils "se sont donné la tâche de créer une 'communauté' où la parole et la pensée des philosophes circulent librement entre tous, et éclairent, ne serait-ce que d’un faible rayon, les problèmes que le temps présent rend de plus en plus complexes".<br><br>
+                    Parmi les invités les plus en vue cette année, figurent la philosophe Judith Revel, l’humoriste et comédien Gad Elmaleh, l’écrivaine et psychologue clinicienne Sarah Chiche, le journaliste Mouloud Achour, le pianiste Karol Beffa ou encore l’éditrice et écrivaine Vanessa Springora.<br><br>
+                    Mais le plus intéressant réside dans le sujet de cette édition : LA VERITE. Tel l’horizon, ce but que l’on poursuit sans jamais l’atteindre, la vérité nous est nécessaire, mais est-elle vraiment présente à Monaco ? De passage ou bien en résidence ?<br><br>
+                    Diogène, le chien de Synope, qui donna son nom à l’école des cyniques, aurait une idée bien tranchée et sarcastique sur le sujet, mais nous sommes entre gens bien élevés. <br><br>
+                    Aussi, après inspection minutieuse du programme, nous conseillons à nos fidèles lecteurs :<br><br>
+                    ·       « La difficulté de dire et de faire entendre la vérité », très attendu par la rédaction du Cactus évidemment, s’est tenue jeudi 12 à 14h30 au Théâtre Princesse Grace <a href="https://philomonaco.com/evenements/la-difficulte-de-dire-et-de-faire-entendre-la-verite/" target="_blank">https://philomonaco.com/evenements/la-difficulte-de-dire-et-de-faire-entendre-la-verite/</a>" <br>
+                    ·       « Fake news, vérités et complots », vendredi 13 juin à 16:30 au Théâtre Princesse Grace <a href="https://philomonaco.com/evenements/fake-news-verites-et-complots/ target="_blank">https://philomonaco.com/evenements/fake-news-verites-et-complots/</a><br>
+                    ·       « Le rire de la vérité », car elle se rit de nous et des agitations absurdes pour la cacher, samedi 14 à 19h00 au Théâtre Princesse Grace <a href"https://philomonaco.com/evenements/le-rire-de-la-verite/" target="_blank">https://philomonaco.com/evenements/le-rire-de-la-verite/</a> <br>
+                    Qui sait, au plaisir de vous y croiser ? A défaut de trouver la vérité, on peut toujours en parler.</p>
+                <img src="https://cactusdemonaco.com/img/verite.webp" alt="Là où il y a Diogène, il y a du plaisir">
+                `
+            },
+            {
+                id: 'cactus-une-formidable-expo-a-ne-pas-manquer',
+                title: 'Cactus : une formidable expo à ne pas manquer',
+                content: `
+                <p>Le Nouveau Musée National de Monaco, en collaboration avec le musée Yves Saint Laurent Marrakech, consacre au Cactus une exposition exceptionnel sous le double angle botanique et artistique. Elle sera ouverte du 6 Juillet au 11 Janvier 2026 à la Villa Sauber.<br><br>
+                Le Nouveau Musée National de Monaco écrit sur son site : «  Présents spontanément dans la zone torride de notre globe et marqueurs d’aridité, les cactus constituent un objet d’étude idéal pour appréhender la diffusion progressive du foisonnement des flores tropicales en Occident au gré des expéditions, des explorations et de l’explosion de l’horticulture au XIXe siècle. Bousculant, par leurs extravagances, notre représentation du végétal, ces plantes furent rapidement reproduites dans nombre d’ouvrages de botanique et entrèrent dans les collections de jardins prestigieux. Ces végétaux, faussement faciles à cultiver, se collectionnent et sont à l’origine de jardins remarquables de la Californie aux Canaries en passant par la Riviera. L’exposition accorde à cette dernière une attention toute particulière à travers des photographies anciennes et contemporaines, mais aussi des documents et des dessins.  <br><br>
+                L’esthétique propre aux cactées a fasciné de nombreux artistes, notamment au début du XXe siècle et particulièrement dans l’entre-deux-guerres. Leur originalité, parfois évocatrice, a fait des cactus et autres plantes succulentes des figures transgressives et inspirantes pour les architectes, photographes, designers mais aussi des artistes et créateurs ou encore des réalisateurs qui peuplèrent leurs décors de leur graphisme iconique. Peu de familles de plantes ont été l’objet de tant de transpositions artistiques. L’exposition en offre un large aperçu faisant dialoguer des œuvres aussi différentes qu’un film d’Eisenstein, un porte-manteau Gufram et un dessin réalisé par David Hockney sur iPad !<br><br>
+                Glissant successivement du registre du scientifique à un artificiel parfois étrange voire menaçant, l’exposition s’échappe de l’intérieur confiné du musée pour se poursuivre dans les jardins de la Villa Sauber transformés pour l’occasion en un spectaculaire jardin de cactées grâce à l’aide du Jardin exotique de Monaco. »  <br><br>
+                Une exposition à ne pas manquer ! Ses Commissaires sont Marc Jeanson & Laurent Le Bon</p>
+                <img src="https://cactusdemonaco.com/img/expo-cactus.webp" alt="Cactus : une formidable expo à ne pas manquer">
                 `
             }
         ];
