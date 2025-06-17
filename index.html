@@ -289,6 +289,28 @@
 
 
             <div class="article">
+                <button class="first" onclick="openModal(207)"><h2>Monaco sur la Lune et sur Mars ? On dit Oui</h2>
+                <img src="https://cactusdemonaco.com/img/monaco-lune.webp" alt="Monaco sur la Lune et sur Mars ? On dit Oui"></button>
+                <p class="preview">Ah, voilà une histoire digne d’un épisode de Mission Impossible version monégasque !<br>Gildo Pastor a décidé de faire sauter les frontières... mais pas de façon classique. Non, non, lui il met carrément le cap sur la Lune et Mars ! </p>
+                <div class="button-group">
+                    <button onclick="openModal(207)">Lire plus</button>
+                    <button onclick="downloadPDF(207)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(206)"><h2>Le Prince en visite au centre d’addictologie</h2>
+                <img src="https://cactusdemonaco.com/img/addictologie.webp" alt="Le Prince en visite au centre d’addictologie"></button>
+                <p class="preview">Notre Souverain a récemment effectué une visite du nouveau Centre de Soins, d’Accompagnement et de Prévention en Addictologie de Monaco (CSAPAM), situé à Fontvieille. Il était notamment accompagné de Christophe Robino, Ministre des Affaires Sociales, du Docteur Jean-François Goldbroch, Psychiatre addictologue et Responsable du Centre, et du Docteur Alexandre Bordero, Directeur de l’Action Sociale.</p>
+                <div class="button-group">
+                    <button onclick="openModal(206)">Lire plus</button>
+                    <button onclick="downloadPDF(206)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
                 <button class="first" onclick="openModal(205)"><h2>Cactus de diamant pour La Gâchette de Monaco</h2>
                 <img src="https://cactusdemonaco.com/img/diamant-gachette.webp" alt="Cactus de diamant pour La Gâchette de Monaco"></button>
                 <p class="preview">Avec plusieurs jours de retard, notre rédaction décerne à la Gâchette de Monaco un Cactus de diamant !</p>
@@ -5227,6 +5249,34 @@
                 content: `
                 <p>Avec plusieurs jours de retard (donc pleinement dans les temps), notre rédaction décerne à la Gâchette de Monaco un Cactus de diamant pour sa couverture sur la nomination du nouveau Ministre d’Etat : « Un cadre de la SNCF nommé avec 140 jours de retard, donc pleinement dans les temps ! ».</p>
                 <img src="https://cactusdemonaco.com/img/diamant-gachette.webp" alt="Cactus de diamant pour La Gâchette de Monaco">
+                `
+            },
+            {
+                id: 'le-prince-en-visite-au-centre-d-addictologie',
+                title: 'Le Prince en visite au centre d’addictologie',
+                content: `
+                <p>Notre Souverain a récemment effectué une visite du nouveau Centre de Soins, d’Accompagnement et de Prévention en Addictologie de Monaco (CSAPAM), situé à Fontvieille. Il était notamment accompagné de Christophe Robino, Ministre des Affaires Sociales, du Docteur Jean-François Goldbroch, Psychiatre addictologue et Responsable du Centre, et du Docteur Alexandre Bordero, Directeur de l’Action Sociale.<br><br>
+                Le CSAPAM est destiné aux personnes adultes salariées à Monaco, aux étudiants en Principauté, aux résidents et Monégasques dès l’âge de 15 ans, rencontrant une problématique addictive dans leur quotidien. Il a pour mission de les accueillir et de les aider avec leurs propres conduites addictives ou celles de leur entourage professionnel ou personnel.<br><br>
+                Toute personne confrontée à un problème d’addiction sera reçue avec écoute et bienveillance quelle que soit sa pathologie : alcoolisme, tabagisme, toxicomanies, addiction aux médicaments, aux jeux, et aux écrans. <br><br>
+                Compte tenu des vagues d’addiction massive que connait actuellement notre Principauté, y compris dans les hautes sphères de l’Etat et de sa machine administrative, le CSAPAM devrait rapidement être débordé.<br><br>
+                Curieusement, l’addiction à la corruption et aux abus de pouvoir ne figure mystérieusement pas dans la liste des maux traités par  le CSAPAM. Curieuse lacune, n’est-ce pas ?</p>
+                <img src="https://cactusdemonaco.com/img/addictologie.webp" alt="Le Prince en visite au Centre d’Addictologie">
+                `
+            },
+            {
+                id: 'monaco-sur-la-lune-et-sur-mars',
+                title: 'Monaco sur la Lune et sur Mars ? On dit Oui',
+                content: `
+                <p>Ah, voilà une histoire digne d’un épisode de Mission Impossible version monégasque ! <br><br>
+                Gildo Pastor a décidé de faire sauter les frontières... mais pas de façon classique. Non, non, lui il met carrément le cap sur la Lune et Mars ! <br><br>
+                Le groupe Venturi, sous la direction de notre cher compatriote, ne s'arrête plus : en 2021, il plonge carrément dans le monde spatial, et sa flotte d'engins lunaires se multiplie plus vite que les macarons à Monaco ! Et on parle d'une flotte qui n'a pas de pneus en caoutchouc, mais des roues hyperdéformables, pour ne pas dire indestructibles, à la différence des nôtres qui se crèvent dès que les cailloux les attaquent.<br><br>
+                Le nouveau bijou de la gamme Venturi Space, le "Mona Luna", a été présenté au Salon du Bourget. Et là, pas de blague, ce n'est pas une simple balade de santé. Le but ? Déposer un rover tout terrain au pôle Sud de la Lune avant 2030. Oui, vous avez bien lu : avant 2030. L’Agence spatiale européenne (ESA) et le CNES, ces géants de l’espace, sont tous à bord de l’aventure.<br><br>
+                Ce rover, un modèle "gros costaud" (750 kg, pour les curieux) est prêt à affronter non seulement la poussière lunaire, mais aussi plusieurs nuits lunaires glacées. Il aura tout ce qu'il faut pour survivre : batteries de dingue, roues à la technologie de pointe, bras robotisé (parce que pourquoi pas, un petit bras mécanique pour attraper des trucs), et tout ça propulsé par l'énergie solaire, bien sûr ! <br><br>
+                En gros, il pourra filer à 20 km/h (plus rapide que certains monégasques lors de la quête de la place de parking), tout en faisant son job scientifique. Mais attention, en cas d'urgence, il pourrait même transporter un astronaute en détresse. Un vrai Saint-Bernard, quoi ! <br><br>
+                Et comme Gildo Pastor ne fait jamais les choses à moitié, la Lune ne serait qu'une étape dans son plan de conquête de l'univers. C’est à Mars que ça se passerait ensuite ! Oui, on parle de rovers martiens… mais qui sait, peut-être que les Monégasques auront des adresses à Mars bientôt. Un petit coin de paradis (fiscal ?) avec vue sur les cratères martiens, ça aurait de la gueule, non ?<br><br>
+                Bref, ce projet fait briller la Principauté, un peu comme si Monaco se réinventait enfin à la vitesse de la lumière. Cette aventure de Venturi est une source de fierté pour les Monégasques. Rien à voir avec les pesanteurs du béton, les magouilles dans l’immobilier et la corruption endémique qui gangrène ce secteur en Principauté. Comme quoi, Gildo Pastor peut se révéler comme un exemple inspirant pour les jeunes et les moins jeunes de notre pays.<br><br>
+                Alors, bientôt sur la Lune : "Made in Monaco" ? On dit oui !</p>
+                <img src="https://cactusdemonaco.com/img/monaco-lune.webp" alt="Le Prince en visite au Centre d’Addictologie">
                 `
             }
         ];
