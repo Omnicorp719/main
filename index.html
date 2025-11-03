@@ -279,6 +279,8 @@
     <p style="font-size:14px;max-width:800px;padding:0 30px;margin:0 auto;text-align:justify;line-height:1.2;">Notre blog satirique, <i>Le Cactus de Monaco</i> est un espace libre créé par des Monégasques et des Français de la Riviera. Il dévoile des vérités dérangeantes et dénonce scandales, corruption, trafics d'influence et mainmise d'intérets financiers sur Monaco. Nos sources proviennent du gouvernement et de l'administration, du Palais, de la police et de la justice, des milieux d'affaires en Principauté comme à Nice et Paris.<br><br>
     Vous pouvez contribuer à nos enquêtes en transmettant des pistes et informations que nos journalistes et juristes vérifieront. Alors que le Prince Albert promettait en 2005 de faire de Monaco "une puissance de l'éthique", notre Principauté est aujourd'hui engluée dans les affaires et conflits d'intérets. Notre mission : rappeler cette vision engageante et exposer les pratiques qui ternissent notre Principauté.<br><br><b>Les lecteurs, lectrices, et lanceurs d'alertes peuvent nous écrire à l'adresse <a href="mailto:cactusdemonaco@proton.me" target="_blank">cactusdemonaco@proton.me</a></b></p>
     <div class="container">
+        <br>
+<!--    <p><a href="index.html">page 1</a> - <a href="p2.html">page 2</a></p>       -->
         <!-- REVERSE ORDER --> 
 <!--
             <div class="article">
@@ -295,6 +297,39 @@
 
 
 -->
+            <div class="article">
+                <button class="first" onclick="openModal(367)"><h2>TV Monaco : quand la vitrine publique tourne au huis clos toxique</h2>
+                <img src="https://cactusdemonaco.com/img/tvtoxic.webp" alt="TV Monaco : quand la vitrine publique tourne au huis clos toxique"></button>
+                <p class="preview">Nos informateurs n’en finissent pas de nous alerter sur le climat délétère qui règnerait au sein des équipes de notre chaîne publique monégasque. Management toxique, dysfonctionnements répétés, fonctionnement parfois chaotique et tyrannique, licenciements, bannissements, etc. Toujours ce sentiment de toute puissance et d’impunité, omniprésent à Monaco, qui alimente dérives et dérapages...</p>
+                <div class="button-group">
+                    <button onclick="openModal(367)">Lire plus</button>
+                    <button onclick="downloadPDF(367)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(366)"><h2>Uniformément brillant : la révolution textile de l’éducation monégasque</h2>
+                <img src="https://cactusdemonaco.com/img/uniformes.webp" alt="Uniformément brillant : la révolution textile de l’éducation monégasque"></button>
+                <p class="preview">Quand il ne pratique pas la chasse aux Français, sport national officieux mais non encore inscrit au programme, le Directeur de l’Éducation Nationale de Monaco a parfois de fulgurantes illuminations. La dernière en date : transformer les collégiens en défilé permanent de bleu marine et de bordeaux. Dès février, les élèves auront donc le bonheur d’enfiler polos et sweat-shirts uniformisés, achetés en pack par des parents ravis de contribuer, à hauteur de 140 euros, à l’harmonisation vestimentaire du royaume des cartables.</p>
+                <div class="button-group">
+                    <button onclick="openModal(366)">Lire plus</button>
+                    <button onclick="downloadPDF(366)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(365)"><h2>La nouvelle fixation de Pastor ?</h2>
+                <img src="https://cactusdemonaco.com/img/fixation.webp" alt="La nouvelle fixation de Pastor ?"></button>
+                <p class="preview">Apparemment, notre tycoon du béton n’a jamais rencontré un règlement de comptes qu’il n’ait pas aimé. Après avoir méthodiquement torpillé l’ancien argentier Claude Palmero et l’avocat Thierry Lacoste, deux têtes de plus à son tableau de chasse , voilà que notre  pieuvre locale, comme la surnomment avec tendresse nos compatriotes, se serait trouvé un nouveau poisson à étrangler : Stéphane Valeri, le patron de la SBM, ancien Ministre et  ex-Président du Conseil National. Valeri serait sa nouvelle fixation.</p>
+                <div class="button-group">
+                    <button onclick="openModal(365)">Lire plus</button>
+                    <button onclick="downloadPDF(365)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
             <div class="article">
                 <button class="first" onclick="openModal(364)"><h2>La sortie de route sans contact du Parquet</h2>
                 <img src="https://cactusdemonaco.com/img/sortiederoute.webp" alt="La sortie de route sans contact du Parquet"></button>
@@ -9108,7 +9143,48 @@
                 Monaco, décidément, reste ce curieux mini-royaume où la séparation des pouvoirs ressemble davantage à un numéro d’équilibriste qu’à un principe constitutionnel. Rideau.</p>
                 <img src="https://cactusdemonaco.com/img/sortiederoute.webp" alt="La sortie de route sans contact du Parquet">
                 `
+            },
+            {
+                id: 'la-nouvelle-fixation-de-pastor',
+                title: 'La nouvelle fixation de Pastor ?',
+                content: `
+                <p>Apparemment, notre tycoon du béton n’a jamais rencontré un règlement de comptes qu’il n’ait pas aimé. Après avoir méthodiquement torpillé l’ancien argentier Claude Palmero et l’avocat Thierry Lacoste, deux têtes de plus à son tableau de chasse , voilà que notre  pieuvre locale, comme la surnomment avec tendresse nos compatriotes, se serait trouvé un nouveau poisson à étrangler : Stéphane Valeri, le patron de la SBM, ancien Ministre et  ex-Président du Conseil National. Valeri serait sa nouvelle fixation.<br><br>
+                Le scénario, toujours le même : harcèlement feutré, campagnes d’insinuations, papiers à charge, et désormais, cerise sur le gratin, un dossier qui sentirait le moisi d’un projet immobilier à Courchevel. Sans doute un nouveau montage. Mais rien de neuf sous le soleil de Monaco : quand Pastor ne construit pas, il démolit les réputations qui le contrarient ou lui font de l’ombre.<br><br>
+                Un petit commando de snipers et artificiers en costume trois pièces, s’échaufferait déjà pour lancer la prochaine salve. On imagine les dîners en ville : "Tu as vu ce qu’on dit sur Valeri ? Non, mais quelle surprise…" Le palmarès de coups fourrés et de pataquès de ces agents n’incite pas à l’optimisme. <br><br>
+                Quant à l’intérêt général de Monaco, laissez-nous rire. Ce concept vaguement abstrait, que l’on ressort entre deux magnums de rosé, n’a ici d’intérêt que lorsqu’il sert d’alibi à quelque manœuvre bien sentie. Le rocher brille, certes, mais c’est souvent le reflet des coups bas qui s’y jouent.</p>
+                <img src="https://cactusdemonaco.com/img/fixation.webp" alt="La nouvelle fixation de Pastor ?">
+                `
+            },
+            {
+                id: 'la-revolution-textile-de-l-education-monegasque',
+                title: 'Uniformément brillant : la révolution textile de l’éducation monégasque',
+                content: `
+                <p>Quand il ne pratique pas la chasse aux Français, sport national officieux mais non encore inscrit au programme, le Directeur de l’Éducation Nationale de Monaco a parfois de fulgurantes illuminations. La dernière en date : transformer les collégiens en défilé permanent de bleu marine et de bordeaux. Dès février, les élèves auront donc le bonheur d’enfiler polos et sweat-shirts uniformisés, achetés en pack par des parents ravis de contribuer, à hauteur de 140 euros, à l’harmonisation vestimentaire du royaume des cartables.<br><br>
+                Oui, à partir du mois de février, le collège Charles III deviendra le pionnier de cette haute couture éducative. Pas de polo ? Pas de cours. Voilà une pédagogie efficace : la sanction textile. C’est la grande réforme de l’année scolaire 2025/2026, juste après celle qui impose aux collégiens et lycéens de glisser leur smartphone dans une pochette hermétique — parce que le savoir ne supporte pas les ondes.<br><br>
+                Le gouvernement, dans son inépuisable souci d’ordre esthétique, précise que cette mesure s’inscrit dans la droite ligne des écoles primaires publiques de la Principauté, déjà habillées depuis 2019. On ne parle pas d’uniforme, bien sûr (ce mot fait peur), mais d’un “code vestimentaire”, c’est-à-dire la même chose, avec un vernis sémantique et un polo assorti. Un haut aux couleurs de l’établissement, un bas sombre, et surtout, aucune prise de risque stylistique.<br><br>
+                Au collège Charles III, le choix sera binaire : bordeaux ou bleu marine, la palette de l’élégance collective, pour des polos ou sweat-shirts fièrement frappés du blason de l’établissement. “L’important, c’est l’identité”, martèle Jean-Philippe Vinci, sans préciser si c’est celle de l’élève ou celle du stock de vêtements. “Avec le même haut, il y a un souci du collectif mais aussi la fierté de faire partie d’un groupe.” Traduction libre : si tout le monde est pareil, c’est qu’on s’aime fort.<br><br>
+                Les familles, elles, goûteront à la joie du pack complet de conformité : quatre polos à manches courtes, deux sweat-shirts à capuche, une casquette — pour 140 euros le tout, la solidarité ayant un coût fixe. Les plus enthousiastes pourront même acheter des articles complémentaires, car il n’y a pas de raison que la conformité ne soit pas disponible en option.<br><br>
+                Cette initiative parachève l’uniformisation du paysage éducatif monégasque. Depuis 2019, les écoles publiques sont déjà entrées dans la modernité textile. Le privé, toujours prompt à montrer l’exemple, s’y est mis dès 2018 : à la FANB, tout le monde porte sa livrée d’appartenance, et à l’International School of Monaco, on cultive la diversité culturelle à condition qu’elle soit vêtue pareil de la primaire à la Terminale. Seuls les lycées Albert-Ier et Rainier III résistent encore, pauvres poches de liberté vestimentaire en sursis. Mais patience : le progrès finit toujours par triompher.<br><br>
+                Notre agrégé Directeur de l’Éducation Nationale, apôtre du polo bien repassé, l’assure doctement : « Un uniforme complet entend lutter contre les différences, mais ce n’est pas notre but. Car en dehors de l’établissement, les collégiens se retrouvent et il peut y avoir des comparaisons sur les vêtements et les marques qu’ils portent. Notre but, avec cette règle, c’est de développer la fierté d’appartenir à un collectif. »<br><br>
+                Ah, la fierté du collectif ! Rien de tel qu’une tenue obligatoire pour la faire naître. Et si le bleu marine devient la couleur du vivre-ensemble, qui sommes-nous pour discuter ?<br><br>
+                D’ailleurs, l’idée pourrait faire des émules : pourquoi ne pas imposer l’uniforme aussi aux fonctionnaires monégasques, ces êtres singuliers qui ont parfois tendance à jouer pantoufles et perso, oubliant souvent le “sens du collectif” à coups de pause-café prolongées ? On imagine déjà le modèle : polo “efficacité publique”, pantalon “neutralité administrative”, et, pour les plus zélés, la casquette “esprit d’équipe”. Voilà qui remettrait tout le monde au même niveau visuel.</p>
+                <img src="https://cactusdemonaco.com/img/uniformes.webp" alt="Uniformément brillant : la révolution textile de l’éducation monégasque">
+                `
+            },
+            {
+                id: 'tv-monaco-quand-la-vitrine-publique-tourne-au-huis-clos-toxique',
+                title: 'TV Monaco : quand la vitrine publique tourne au huis clos toxique',
+                content: `
+                <p>Nos informateurs n’en finissent pas de nous alerter sur le climat délétère qui règnerait au sein des équipes de notre chaîne publique monégasque. Management toxique, dysfonctionnements répétés, fonctionnement parfois chaotique et tyrannique, licenciements, bannissements, etc. Toujours ce sentiment de toute puissance et d’impunité, omniprésent à Monaco, qui alimente dérives et dérapages...<br><br>
+                Dans les coulisses, c’est donc Succession version monégasque : intrigues, coups de théâtre, têtes qui tombent, et managers persuadés d’avoir reçu leur autorité directement de Dieu ou du Prince, c’est selon. On y parle de management “toxique” ? Le mot est faible : ici, le gaz est à effet immédiat.<br><br>
+                Les salariés, eux, avancent prudemment, à pas feutrés, comme dans un musée où chaque statue pourrait mordre. Car à Monaco, l’article 6 du code du travail offre à l’employeur le super-pouvoir de virer qui il veut, quand il veut, sans avoir à s’abaisser à donner un motif. Une arme d’élite pour diriger avec panache et terreur, façon Game of Thrones sous le soleil.<br><br>
+                Déjà en 2023, quelques âmes téméraires avaient osé briser le silence. Mauvais traitements, pressions, humiliations… avant de retourner dans l’ombre, sans doute après un petit rappel “amical” de ce qu’il en coûte de trop parler ou après un chèque bien senti, qui sait ?<br><br>
+                Pendant ce temps, la communication officielle de TV Monaco enfume. On parle d’éthique, de respect, de valeurs. Un discours si lisse qu’il ferait passer une campagne de propagande soviétique pour un documentaire vérité. Et la liberté de la presse ? Elle se porte très bien, merci, du moment qu’elle ne s’exerce pas ici.<br><br>
+                Car oui, en matière de droits du travail et de liberté d’expression, Monaco reste ce qu’elle a toujours été : un splendide village Potemkine, soigneusement repeint pour la photo officielle, mais derrière les façades, les fissures s’élargissent.</p>
+                <img src="https://cactusdemonaco.com/img/tvtoxic.webp" alt="TV Monaco : quand la vitrine publique tourne au huis clos toxique">
+                `
             }
+
         ];
         function openModal(index) {
             const article = articles[index - 1];
@@ -9149,4 +9225,3 @@
 -->
 </body>
 </html>
-
