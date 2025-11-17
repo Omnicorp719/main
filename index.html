@@ -298,6 +298,28 @@
 
 -->
             <div class="article">
+                <button class="first" onclick="openModal(377)"><h2>La grogne des parents d’élèves</h2>
+                <img src="https://cactusdemonaco.com/img/grogne.webp" alt="La grogne des parents d’élèves"></button>
+                <p class="preview">L’affaire des uniformes scolaires à Monaco, c’est un peu comme une mauvaise série dont on n’arrive pas à diffuser le dernier épisode : ça traîne, ça bégaie, et ça fait jaser et râler. Les parents d’élèves, eux, continuent à se demander par quel miracle on a réussi à rater la rentrée de septembre – pourtant la date idéale – pour finalement dégainer l’uniforme en février, comme si l’année scolaire n’était qu’un calendrier de l’Avent mal foutu.</p>
+                <div class="button-group">
+                    <button onclick="openModal(377)">Lire plus</button>
+                    <button onclick="downloadPDF(377)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
+                <button class="first" onclick="openModal(376)"><h2>Le Prince dans sa bulle ?</h2>
+                <img src="https://cactusdemonaco.com/img/princebulle.webp" alt="Le Prince dans sa bulle ?"></button>
+                <p class="preview">Apparemment, oui, et elle doit être bien insonorisée. Pour la Fête nationale, Albert II et Charlène ont accordé un entretien fleuve à Monaco-Matin, décliné en épisodes, comme une mini-série dont on se demande si elle vise l’Emmy ou simplement le public monégasque clairsemé. Sa Sérénissime Agenda Surbooké ne fait décidément rien à moitié.</p>
+                <div class="button-group">
+                    <button onclick="openModal(376)">Lire plus</button>
+                    <button onclick="downloadPDF(376)">Télécharger en PDF</button>
+                </div>
+            </div> 
+
+
+            <div class="article">
                 <button class="first" onclick="openModal(375)"><h2>Palmero en cavale en Tanzanie ?</h2>
                 <img src="https://cactusdemonaco.com/img/tanzanie.webp" alt="Palmero en cavale en Tanzanie ?"></button>
                 <p class="preview">Alors que la pieuvre monégasque et ses relais continuent de murmurer que l’ancien grand argentier sera très probablement inculpé à Monaco en janvier prochain, nos taupes au Palais princier révèlent un fait bien plus croustillant : Claude Palmero, lui, serait actuellement en cavale… en Tanzanie, pays de près de 70 millions d’habitants.</p>
@@ -9376,6 +9398,30 @@
                 D’après nos sources, ses motivations restent obscures. Fuir la vendetta judiciaire initiée contre lui depuis juin 2023 ? Participer à une chasse au trésor à la mode africaine ? Recruter des mercenaires pour faire un coup d’Etat en Principauté et chasser notre tentaculaire pieuvre nationale ? Ou, qui sait, prodiguer des conseils financiers et fiscaux avisés à la cheffe de l’État Samia Suluhu Hassan ? Une chose est sûre : le mystère reste entier, même si le palais pencherait pour la piste de la tentative de putsch.<br><br>
                 Notre expert-comptable national ne manque décidément pas de flair pour choisir ses destinations : la Corée du Nord, la Transnistrie ou le Burkina Faso ont déjà eu l’honneur de sa visite… et la Tanzanie s’ajoute désormais à ce palmarès.</p>
                 <img src="https://cactusdemonaco.com/img/tanzanie.webp" alt="Palmero en cavale en Tanzanie ?">
+                `
+            },
+            {
+                id: 'le-prince-dans-sa-bulle',
+                title: 'Le Prince dans sa bulle ?',
+                content: `
+                <p>Apparemment, oui, et elle doit être bien insonorisée. Pour la Fête nationale, Albert II et Charlène ont accordé un entretien fleuve à Monaco-Matin, décliné en épisodes, comme une mini-série dont on se demande si elle vise l’Emmy ou simplement le public monégasque clairsemé. Sa Sérénissime Agenda Surbooké ne fait décidément rien à moitié.<br><br>
+                Dans le premier épisode diffusé ce lundi, le Souverain disserte sur la réputation internationale de Monaco et son engagement environnemental. Et là, pépite : il explique que la Principauté suscite fascination et curiosité — dans le bon sens du terme, précise-t-il, comme si quelqu’un risquait de confondre ça avec de la perplexité ou de l’ironie. <br><br>
+                Et là, nous, on reste effectivement scotchés. Parce qu’il n’y a pas si longtemps, le Ministre d’État, des Conseillers nationaux et Bruno Dalle déploraient allègrement l’image catastrophique du Rocher dans les médias internationaux, à tel point qu’une campagne de communication XXL serait envisagée pour recoller les morceaux. Il faut dire que, depuis deux ans, les médias ont pondu une avalanche d’articles pas vraiment dithyrambiques : scandales, affaires monégasques, listes grise et noire… Bref, une ambiance de carte postale, version film noir.<br><br>
+                Alors oui, le Prince fait sans doute un travail remarquable pour porter la Principauté à l’international (chapeau bas) mais on a l’impression qu’il consulte un monde parallèle. <br><br>
+                Parce que ce qui se passe réellement à Monaco a du mal à inspirer de la « fascination » : justice d’opérette, État de droit qui tousse, Mareterra sans logements domaniaux, concentration de milliardaires digne d’un congrès annuel, liberté de la presse en pointillés, échec de TV Monaco… Une atmosphère très “stabilité et réussite”, mais surtout pour ceux qui ont un télescope pointé dans la bonne direction.</p>
+                <img src="https://cactusdemonaco.com/img/princebulle.webp" alt="Le Prince dans sa bulle ?">
+                `
+            },
+            {
+                id: 'la-grogne-des-parents-d-eleves',
+                title: 'La grogne des parents d’élèves',
+                content: `
+                <p>L’affaire des uniformes scolaires à Monaco, c’est un peu comme une mauvaise série dont on n’arrive pas à diffuser le dernier épisode : ça traîne, ça bégaie, et ça fait jaser et râler. Les parents d’élèves, eux, continuent à se demander par quel miracle on a réussi à rater la rentrée de septembre – pourtant la date idéale – pour finalement dégainer l’uniforme en février, comme si l’année scolaire n’était qu’un calendrier de l’Avent mal foutu.<br><br>
+                Évidemment, annoncer ça avec un préavis court, histoire que chaque famille se lance dans une course contre la montre pour acheter la nouvelle panoplie, c’était la cerise sur le gâteau déjà un peu trop sucré. Une réforme pourtant acceptée à peu près par tout le monde… jusqu’à ce que l’histoire de la casquette ne vienne ajouter une touche de burlesque au tableau, surtout quand on sait que le port de la casquette est interdit dans le règlement dans le règlement intérieur du Collège Charles III. Entre ceux qui rient et ceux qui grincent des dents, on ne sait plus s’il faut parler d’uniforme ou de déguisement.<br><br>
+                Quant à la Présidente de l’Association des Parents d’Élèves, Raffaella Olivieri, elle aurait préféré se retirer car elle n’aurait pas envie de se prendre le bec avec le Directeur de l’Education Nationale, lequel, de son côté, continuerait à recevoir parents et profs au compte-gouttes, comme s’il était distributeur officiel d’audiences limitées.<br><br>
+                Pendant ce temps, la chasse aux enseignants français et les remplacements un peu improvisés par des profs parfois à moitié qualifiés font monter la pression, car ce micmac pourrait se traduire par une baisse du niveau des élèves. Même si les stats officiels laisseraient à penser que notre Principauté viserait les 110 % de reçus au bac !<br><br>
+                Par ailleurs, on est sans nouvelles des suites, s’il y en a eu, du scandale des admissions tarifées et achetées en sous-main à l’école internationale. Un beau cas de corruption qui suscite un silence aussi épais qu’un brouillard londonien. Faut-il y voir la vigueur retrouvée de l’omerta qui règne à Monaco ? En tout cas, de nombreux parents sont furieux.</p>
+                <img src="https://cactusdemonaco.com/img/grogne.webp" alt="La grogne des parents d’élèves">
                 `
             }
 
